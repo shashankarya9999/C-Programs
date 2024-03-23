@@ -3,7 +3,7 @@
 
 void reverse( char *str );
 
-int main()	//work on this
+int main()
 {
 	char *s[] =	{
 				"Shashank Arya",
@@ -20,7 +20,8 @@ int main()	//work on this
 	printf("%s\n",s[0]);
 	printf("%s\n",s[1]);
 	printf("%s\n",s[2]);
-	
+
+	return 0;
 }
 
 void reverse( char *str )
