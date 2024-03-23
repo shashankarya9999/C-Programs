@@ -15,7 +15,7 @@ int main()
 
 	printf("The Ackermann value is: %d\n",A);
 
-	return 0;		
+	return 0;	
 }
 
 int Ackermann( int a, int b )
