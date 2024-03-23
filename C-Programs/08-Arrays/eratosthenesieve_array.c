@@ -1,7 +1,7 @@
 #include<stdio.h>
 #include<math.h>
 
-int main()	//work on this
+int main()
 {
 	int num[101];
 	
