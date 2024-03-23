@@ -17,5 +17,4 @@ int main()
 	else printf("Invalid Day \n");
 	 	
 	return 0;
-
 }
