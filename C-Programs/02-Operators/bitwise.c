@@ -13,7 +13,6 @@ int main()
 	printf("%d>>1 = %d\n",a,a>>1);
 	printf("%d<<1 = %d\n",b,b<<1);
 	printf("~%d = %d\n",a,~a);
-
-
+	
 	return 0;
 }
