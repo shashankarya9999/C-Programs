@@ -31,7 +31,7 @@ void vowels( char *str )
 
 		else if( *str == 'u' || *str == 'U' )	count_u = count_u + 1;
 	}  
-
+	
 	printf("Number of vowels of each type:\n");
 	printf("a = %d\n",count_a);
 	printf("e = %d\n",count_e);
