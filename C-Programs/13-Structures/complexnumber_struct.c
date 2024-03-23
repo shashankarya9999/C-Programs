@@ -22,7 +22,7 @@ int main()
         scanf("%f%f",&z2.a,&z2.b);
 
 	complex_represent( z2 );
-
+	
 	complex_add( z1, z2 );
 	return 0;	
 }
