@@ -10,7 +10,7 @@ int main()
 	scanf("%d%d",&m1,&n1);
 
 	int matrix1[m1][n1];
-
+	
 	printf("Enter the elements in row-major form: ");
 
         for( i=0; i<m1; i=i+1 )
