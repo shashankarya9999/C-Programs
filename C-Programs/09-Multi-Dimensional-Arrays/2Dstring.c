@@ -7,7 +7,7 @@
 int main()
 {
 	char masterlist[7][10] = {
-					"uma",
+					"anand",
 					"shashank",
 					"spandan",
 					"jolie",
