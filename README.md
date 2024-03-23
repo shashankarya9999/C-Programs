@@ -1,5 +1,8 @@
 # The-C-Programming-Language
 
+![istockphoto-1386341272-612x612](https://github.com/shashankarya9999/C/assets/161122907/17deb122-958a-4ed2-8415-02587c12a831)
+
+
 Welcome to my C programming repository! This repository is dedicated to showcasing my journey through the world of C Programming. It serves as a collection of projects, exercises, assignments, and resources related to C. 
 
 Stay tuned for more as I will be putting more of my works here!
