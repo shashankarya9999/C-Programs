@@ -10,8 +10,11 @@ int main()
 		printf("Pick: 1/2/3/4 matches: ");
 		scanf("%d",&p);
 		
-		if( p<1 || p>4 )	continue;
-
+		if( p<1 || p>4 )	
+		{
+			continue;
+		}
+		
 		m = m - p;
 
 		printf("Number of matches left = %d\n",m);
