@@ -11,7 +11,7 @@ int main()
 	fgets( str, MAX, stdin );
 
 	vowels(str);
-
+	
 	return 0;  
 }
 
