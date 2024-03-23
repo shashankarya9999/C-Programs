@@ -1,7 +1,6 @@
 # The-C-Programming-Language
 
-![istockphoto-1386341272-612x612](https://github.com/shashankarya9999/C/assets/161122907/17deb122-958a-4ed2-8415-02587c12a831)
-
+![istockphoto-1386341272(1)](https://github.com/shashankarya9999/C/assets/161122907/57eb338d-3fcb-40a4-96a8-3171051417c9)
 
 Welcome to my C programming repository! This repository is dedicated to showcasing my journey through the world of C Programming. It serves as a collection of projects, exercises, assignments, and resources related to C. 
 
@@ -22,9 +21,7 @@ In this repository, there are a variety of programs each crafted to emphasize a 
 If you're new to this repository or C programming in general, here's how you can get started:
 
 1. Clone the repository to your local machine using `git clone https://github.com/shashankarya9999/C`.
-
 2. Navigate to the project you're interested in within the repository.
-
 3. Run, and explore the code.
 
 ## License
