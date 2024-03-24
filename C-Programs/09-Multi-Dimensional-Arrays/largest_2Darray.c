@@ -1,9 +1,14 @@
+/*
+
+This program takes a 2D matrix as user input and outputs the largest element of the input matrix.
+
+*/
+
 #include<stdio.h>
 
 int largest( int [][4], int, int );
 
 int main()
-
 {
 	int num[4][4],m,n,i,j,big;
 
@@ -34,6 +39,7 @@ int main()
 
 	big = largest( num, m, n );
 	printf("The largest element of the array is: %d\n",big);
+	
 	return 0;
 }
 
@@ -54,4 +60,3 @@ int largest( int num[][4], int m, int n )
 
 	return (maximum);
 }
-
