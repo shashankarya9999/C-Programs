@@ -1,3 +1,9 @@
+/*
+
+This program takes in a 2x2 matrix; and then uses a function called adjoint to compute the adjoint of the input matrix. One interesting fact about the adjoint function is that it uses another function swap.
+
+*/
+
 #include<stdio.h>
 
 void adjoint( int m[][2] );
