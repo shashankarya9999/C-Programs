@@ -1,3 +1,9 @@
+/*
+
+This program takes in two matrices as input; and then uses a function called addmats to compute and print the sum of the two matrices.
+
+*/
+
 #include<stdio.h>
 
 void addmats( int a[][2], int b[][2] );
