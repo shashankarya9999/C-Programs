@@ -21,6 +21,8 @@ int main()
 
         if( num == sum )        printf("Number is Armstrong!\n");
         else                    printf("Number is not Armstrong!\n");
+
+        return 0;
 }
 
 int digit( int m )
