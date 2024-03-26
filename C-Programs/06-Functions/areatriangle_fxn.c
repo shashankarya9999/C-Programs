@@ -59,7 +59,8 @@ float tri_area( float d1, float d2, float d3 )
 	float s;
 
 	s = ( d1+d2+d3 )/2;
-
+	
 	float area = sqrt( s*(s-d1)*(s-d2)*(s-d3) );
+	
 	return area;
 }
