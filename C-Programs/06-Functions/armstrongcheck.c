@@ -1,3 +1,9 @@
+/*
+
+This program takes in a number as input and checks if it is an armstrong number.
+
+*/
+
 #include<stdio.h>
 #include<math.h>
 
