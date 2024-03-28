@@ -1,3 +1,9 @@
+/*
+
+This program takes the three co-ordinates of a triangle as inputs and then computes the area of the triangle.
+
+*/
+
 #include<stdio.h>
 #include<math.h>
 
