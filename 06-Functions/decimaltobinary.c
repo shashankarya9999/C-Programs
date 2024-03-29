@@ -1,3 +1,9 @@
+/*
+
+This program takes a decimal number(base 10) as input and outputs its binary equivalent(base 2)
+
+*/
+
 #include<stdio.h>
 #include<math.h>
 
