@@ -15,7 +15,7 @@ Stay tuned for more as I will be putting more of my works here!
 - [**Contact**](#Contact)
 
 ## Description
-In this repository, there are a variety of programs each crafted to emphasize a different aspect of the language. I have tried to maintain different folders in a rough chronological order in which I originally learned the concepts, so that it is easy to follow. Almost all the programs are working as per my knowledge but in case they are not, feel free to inform me. In the coming future, I will be adding more coherent comments to the files included in this repository, so that the programs are more comprehensible. Also I will be adding a new folder for my upcoming C projects on which I am working on right now. 
+In this repository, there are a variety of programs each crafted to emphasize a different aspect of the language. I have tried to maintain different folders in a rough chronological order in which I originally learned the concepts, so that it is easy to follow. Almost all the programs are working as per my knowledge but in case they are not, feel free to inform me. In the coming future, I will be adding more coherent comments to the files included in this repository, so that the programs are more comprehensible. 
 
 ## Getting Started
 If you're new to this repository or C programming in general, here's how you can get started:
