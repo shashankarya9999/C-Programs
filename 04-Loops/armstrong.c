@@ -1,3 +1,9 @@
+/*
+
+This program prints armstrong numbers from 1 to 1000.
+
+*/
+
 #include<stdio.h>
 #include<math.h>
 
@@ -17,6 +23,8 @@ int main()
 			printf("%d\n",i);
 		}
 	} 	
+
+	return 0;
 }
 
 int cubic_sum( int m )
@@ -28,5 +36,6 @@ int cubic_sum( int m )
 		sum = sum + pow( rem, 3 );
 		m = m / 10;
 	}
+	
 	return sum;
 }
