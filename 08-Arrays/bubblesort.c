@@ -1,3 +1,9 @@
+/*
+
+This program implements the bubble sort algorithm to sort an array
+
+*/
+
 #include<stdio.h>
 
 void sort( int [], int );
