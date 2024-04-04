@@ -10,7 +10,7 @@ Randomizing die-rolling program
 int main()
 {
     int i;
-    unsigned seed; //number used to seed random number generator
+    unsigned seed; // number used to seed random number generator
 
     printf("Enter Seed: ");
     scanf("%u",&seed);
