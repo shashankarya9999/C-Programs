@@ -1,6 +1,6 @@
 /*
 
-Randomising die-rolling program
+Randomizing die-rolling program
 
 */
 
