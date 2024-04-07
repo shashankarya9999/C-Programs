@@ -4,7 +4,6 @@ void tempvar_swap( int x, int y );
 void notempvar_swap( int p, int q );
 
 int main()
-
 {
 	int a,b;
 
@@ -17,11 +16,11 @@ int main()
 	notempvar_swap( a,b );
 	
 	printf("The values in main function: a = %d, b = %d\n",a,b);
+	
 	return 0;
 }
 
 void tempvar_swap( int x, int y )
-
 {
 	int temp;
 	temp=x;
@@ -32,7 +31,6 @@ void tempvar_swap( int x, int y )
 }
 
 void notempvar_swap( int p, int q )
-
 {
 	p=p+q;
 	q=p-q;
