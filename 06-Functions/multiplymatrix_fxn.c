@@ -103,6 +103,7 @@ void multiplymat( int p1, int p2, int q1, int q2, int A[][q1], int B[][q2] )
 		{
 			printf("%d\t",resultant[i][j]);
 		}
+		
 	printf("\n");
 	}
 }
