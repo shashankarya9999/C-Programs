@@ -4,7 +4,6 @@
 void fillArray( int anArray[], int numElements );
 
 int main()
-
 {
 	int someArray[SIZE];
 	int i;
