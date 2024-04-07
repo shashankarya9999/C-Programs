@@ -7,6 +7,7 @@ int main()
 	int mat[3][3];
 	int i,j;
 	printf("Enter the elements in row-major form: ");
+	
 	for( i=0; i<3; i++ )
 	{
 		for( j=0; j<3; j++ )
@@ -23,10 +24,13 @@ int main()
 		{
 			printf("%d ",mat[i][j]);
 		}
+		
 	printf("\n");
 	}
 
 	det( mat );
+
+	return 0;
 }
 
 void det( int m[][3] )
