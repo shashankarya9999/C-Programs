@@ -3,7 +3,6 @@
 void reverseNum( int n );
 
 int main()
-
 {
 	int num;
 
@@ -11,11 +10,11 @@ int main()
 	scanf("%d",&num);
 
 	reverseNum( num );
+	
 	return 0;
 }
 
 void reverseNum( int n )
-
 {
 	int rem, reverse=0;
 
