@@ -7,10 +7,9 @@ This program takes a decimal number(base 10) as input and outputs its binary equ
 #include<stdio.h>
 #include<math.h>
 
-void convert( int ,int );
+void convert( int, int );
 
 int main()
-
 {
 	int dec_num,n;
 
@@ -28,7 +27,6 @@ int main()
 }
 
 void convert( int dec_num, int n )
-
 {
 	int rems[n];
 	int i=0;
@@ -42,10 +40,10 @@ void convert( int dec_num, int n )
 	}
 	
 	printf("The binary equivalent of the equivalent decimal number is: ");
+	
 	for( j=i-1; j>=0; j-- )
 	{
 		printf(" %d ",rems[j]);
 	}
 	printf("\n");
-
 }
