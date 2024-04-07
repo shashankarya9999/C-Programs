@@ -3,7 +3,6 @@
 void prime_factor(int m); 
 
 int main()
-
 {
 	int n;
 	
@@ -13,11 +12,11 @@ int main()
 	printf("Prime factors of %d are: \n",n);
 	
 	prime_factor(n);
+	
 	return 0;
 }
 
 void prime_factor(int m)
-
 {
 	int i;
 	
