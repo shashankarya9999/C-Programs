@@ -1,7 +1,7 @@
 #include<stdio.h>
 #include<math.h>
 
-void convert_dec( int a, int b );
+void convert_to_bin( int a, int b );
 
 int main()
 
@@ -16,11 +16,12 @@ int main()
 
 	if( dec > pow(2,n) - 1 )	printf("Entered number is out of range!\n");
 	
-	else	convert_dec( dec, n );
+	else	convert_to_bin( dec, n );
+
+	return 0;
 }
 
-void convert_dec( int a, int b )
-
+void convert_to_bin( int a, int b )
 { 
 	int rem[b];
 	int i=0;
