@@ -22,10 +22,12 @@ int main()
 		{
 			printf("%d ",mat[i][j]);
 		}  
+		
 	printf("\n");
 	}
 	
 	det( mat );
+	
 	return 0;
 }
 
