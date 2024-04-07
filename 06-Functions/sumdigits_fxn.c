@@ -16,6 +16,7 @@ int main()
 	
 	return 0;
 }
+
 int num_digit( int p )
 {
 	int counter = 0;
@@ -47,6 +48,7 @@ void sod( int d, int m )
         {
 		sum = sum + num[i];         
         }
+	
         printf("\n");
 	printf("Sum of digits = %d\n",sum);	
 }
