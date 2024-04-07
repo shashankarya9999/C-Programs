@@ -3,7 +3,6 @@
 void fib( int n );
 
 int main()
-
 {
 	int num;
 	
@@ -11,11 +10,11 @@ int main()
 	scanf("%d",&num);
 
 	fib( num );
+	
 	return 0;
 }
 
 void fib( int n )
-
 {
 	int i;
 	int a=1,b=0,c;
