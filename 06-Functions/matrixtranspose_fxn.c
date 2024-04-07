@@ -30,6 +30,7 @@ int main()
 		{
 			printf("%d\t",mat[i][j]);
 		}
+		
 	printf("\n");
 	}
 	
@@ -68,6 +69,7 @@ void mat_transpose( int p, int q, int a[][q] )
 		{
 			printf("%d\t",transpose[i][j]);
 		}
+		
 	printf("\n");
 	}	
 }
@@ -84,6 +86,7 @@ void mat_transpose2( int p, int q, int a[][q] )
 		{
 			printf("%d\t",a[j][i]);
 		}
+		
 	printf("\n");
 	}
 }
