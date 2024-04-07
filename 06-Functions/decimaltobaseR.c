@@ -14,11 +14,11 @@ int main()
 	scanf("%d",&r);
 
 	decimal_baseR( num, r );
+	
 	return 0;
 }
 
 void decimal_baseR( int n, int R )
-
 {
 	int bin = 0, pos = 1;
 	
