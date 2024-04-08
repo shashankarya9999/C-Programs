@@ -36,19 +36,20 @@ int compare( char *a, char *b )
 			flag = 0;
 			break;
 		}
-	i++;
+	
+		i++;
 
-	if( a[i] == '\0' )
-	{
-		if( b[i] != '\0' )	flag=0;
+		if( a[i] == '\0' )
+		{
+			if( b[i] != '\0' )	flag=0;
+		}
+	
+		if( b[i] == '\0' )
+		{
+			if( a[i] != '\0' )	flag=0;
+		}
 	}
 
-	if( b[i] == '\0' )
-	{
-		if( a[i] != '\0' )	flag=0;
-	}
-	}
-
-	if( flag ==0 )	return 0;
-	else 	return 1;
+	if( flag == 0 )		return 0;
+	else 			return 1;
 }
