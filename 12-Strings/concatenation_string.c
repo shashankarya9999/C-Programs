@@ -13,6 +13,7 @@ int main()
 	fgets( str2, 20, stdin );
 
 	concat( str1, str2 );
+	
 	return 0;
 }
 
@@ -42,7 +43,6 @@ void concat( char str1[], char str2[] )
 
 	printf("The concatenated string is: ");
 	
-	printf("%s",str3);
-	
+	printf("%s",str3);	
 }
 
