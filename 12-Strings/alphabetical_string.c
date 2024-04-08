@@ -32,5 +32,4 @@ void alpha_sort( char b[], int m )
         }
 
 	printf("The sorted array: %s\n",b);
-
 }
