@@ -12,6 +12,7 @@ int main()
         fgets( str, MAX, stdin );
 
         space_delete( str, strlen(str) );
+	
 	return 0;
 }
 
@@ -25,8 +26,8 @@ void space_delete( char *s, int l )
 			{
 				s[j] = s[j+1];
 			}
-		i--;
-		l--;
+			i--;
+			l--;
 		}
 	}
 
