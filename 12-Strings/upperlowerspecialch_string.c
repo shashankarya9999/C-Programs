@@ -4,7 +4,6 @@ int uppercasecount( char *a );
 int lowercasecount( char *a );
 int specialchcount( char *a );
 
-
 int main()
 {
 	char str[]="My name is Shashank Arya!\n";
@@ -32,6 +31,7 @@ int uppercasecount( char *a )
 		}
 		i++;
 	}
+	
 	return counter;
 }
 
@@ -48,6 +48,7 @@ int lowercasecount( char *a )
                 }
                 i++;
         }
+	
         return counter;
 }
 
@@ -64,6 +65,7 @@ int specialchcount( char *a )
 		}
 		i++;
 	}
+	
 	return counter;
 }
 
