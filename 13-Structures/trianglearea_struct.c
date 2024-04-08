@@ -10,7 +10,8 @@ struct tri
 
 float area( float a, float b, float d )
 {
-	float A = 0.5*a*b*sin(d);
+	float A = 0.5 * a * b * sin(d);
+	
 	return A;
 }
 
