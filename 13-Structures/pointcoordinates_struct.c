@@ -25,6 +25,7 @@ int main()
 	double d = distance( c1,c2 );
 
 	printf("Distance between the two points: %lf\n",d);
+	
 	return 0;  
 }
 
