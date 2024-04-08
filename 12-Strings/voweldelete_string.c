@@ -12,6 +12,8 @@ int main()
 	fgets( str, MAX, stdin );
 
 	vowel_delete( str, strlen(str) ); 
+
+	return 0;
 }
 
 void vowel_delete( char *s, int l )
@@ -24,8 +26,8 @@ void vowel_delete( char *s, int l )
 			{
 				s[j] = s[j+1];
 			}
-		i--;
-		l--; 		 	
+			i--;
+			l--; 		 	
 		}
 
 		else if( s[i] == 'e' || s[i] == 'E' )
@@ -34,8 +36,8 @@ void vowel_delete( char *s, int l )
                         {
                                 s[j] = s[j+1];
                         }
-                i--;
-                l--;
+                	i--;
+                	l--;
 		}	
 
 		else if( s[i] == 'i' || s[i] == 'I' )
@@ -44,8 +46,8 @@ void vowel_delete( char *s, int l )
                         {
                                 s[j] = s[j+1];
                         }
-                i--;
-                l--;
+                	i--;
+                	l--;
 		}
 
 		else if( s[i] == 'o' || s[i] == 'O' )
@@ -54,8 +56,8 @@ void vowel_delete( char *s, int l )
                         {
                                 s[j] = s[j+1];
                         }
-                i--;
-                l--;
+               		i--;
+                	l--;
 		}	
 
 		else if( s[i] == 'u' || s[i] == 'U' )
@@ -64,8 +66,8 @@ void vowel_delete( char *s, int l )
                         {
                                 s[j] = s[j+1];
                         }
-                i--;
-                l--;
+                	i--;
+                	l--;
 		}
 	} 
 
