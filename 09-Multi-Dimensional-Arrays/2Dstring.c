@@ -23,6 +23,7 @@ int main()
 	scanf("%s",yourname);
 
 	flag = NOTFOUND;
+	
 	for( i=0; i<6; i++ )
 	{
 		a = strcmp( &masterlist[i][0], yourname );
@@ -33,6 +34,8 @@ int main()
 			break;
 		}
 	}
+	
 	if( flag == NOTFOUND )		printf("Trespassers will be used for science experiments!\n");
+	
 	return 0;
 }
