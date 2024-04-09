@@ -9,7 +9,7 @@ int main()
 
 	printf("Enter a string: ");
 	fgets( str, MAX, stdin );
-	reverse( str );
+	reverse(str);
 
 	printf("The reversed string is: ");
 	puts(str);
