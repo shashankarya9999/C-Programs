@@ -5,7 +5,7 @@ int main()
 {
 	int *a;
 
-	a = ( int * )malloc( 4*sizeof(int) );
+	a = (int *)malloc( 4*sizeof(int) );
 
 	printf("Enter four integers: ");
 	for( int i=0; i<4; i++ )
