@@ -12,7 +12,7 @@ int main()
 
 	printf("Enter the integers: ");
 
-	a = (int *)malloc( 5*sizeof(int) );	
+	a = (int *)malloc( 5 * sizeof(int) );	
 
 	for( i=0; i<n; i++ )
 	{
