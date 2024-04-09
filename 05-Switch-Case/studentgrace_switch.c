@@ -1,6 +1,6 @@
 #include<stdio.h>
 
-int main()	//let us C( Pg. 146 )
+int main()	// let us C( Pg. 146 )
 {
 	int c,n;
 
@@ -25,5 +25,6 @@ int main()	//let us C( Pg. 146 )
 			else		printf("Total Grace marks = %d\n",n*5);
 			break;			
 	}
+	
 	return 0;
 }
