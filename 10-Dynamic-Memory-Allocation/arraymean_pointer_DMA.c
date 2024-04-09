@@ -9,18 +9,21 @@ int main()
 	printf("Enter the number of integers: ");
 	scanf("%d",&n);
 
-	a = ( int * )malloc( n*sizeof(int) );
+	a = (int *)malloc( n * sizeof(int) );
 
 	printf("Enter the integers: ");
 	for( i=0; i<n; i++ )	scanf("%d", a+i);
 
 	printf("The entered array is: ");
 	for( i=0; i<n; i++ )	printf("%d ",*(a+i));
+	
 	printf("\n");
 
 	float ave = findMean( a, n );
 
 	printf("The mean of array elements is %f\n",ave); 
+
+	return 0;
 }
 
 float findMean( int *p, int m )
@@ -32,5 +35,6 @@ float findMean( int *p, int m )
 	for( j=0; j<m; j++ )	total = total + *( p + j );
 
 	avg = total/m;
+	
 	return avg;
 }
