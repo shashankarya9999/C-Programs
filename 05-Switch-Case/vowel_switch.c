@@ -1,7 +1,6 @@
 #include<stdio.h>
 
 int main()
-
 {
 	char ch;
 	printf("Enter an English alphabet: ");
@@ -9,14 +8,16 @@ int main()
 	
 	printf("The entered character is: \n");	
 	
-	switch(ch)
+	switch( ch )
 	{
 		case 'a':
 			  printf("Vowel\n");
 			  break;
+		
 		case 'e':
                           printf("Vowel\n");
                           break;
+		
 		case 'i':
                           printf("Vowel\n");
                           break;
@@ -33,5 +34,6 @@ int main()
                           printf("Consonant\n");
                           break;
 	}
+	
 	return 0;
 }
