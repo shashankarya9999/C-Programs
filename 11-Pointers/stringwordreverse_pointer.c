@@ -2,6 +2,7 @@
 #include<stdlib.h>
 
 void reverse(char *begin,char *end);
+
 int main()
 {
 	char *str;
@@ -11,6 +12,7 @@ int main()
 
 	char *begin,*end;
 	begin = end = str;
+	
 	printf("The reversed string is as follows:\n");
 	for(; *str != '\0'; str++)
 	{
@@ -24,15 +26,19 @@ int main()
 			end = end + 2;
 		}
 	}
+	
 	end = str - 2;
 	reverse(begin,end);
+	
 	for(; begin<=end; begin++)  printf("%c",*begin);
 	printf("\n");
+	
 	return 0;
 }
 void reverse (char *begin,char *end)
 {
 	char ch;
+	
 	while(end > begin)
 	{
 		ch = *end;
