@@ -15,7 +15,9 @@ int main()
 		{
 			printf("%d ",*(*(s+i)+j));
 		}
+		
 	printf("\n");
 	}
+	
 	return 0;
 }
