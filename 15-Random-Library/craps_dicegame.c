@@ -1,6 +1,7 @@
 /*****************************************************************CRAPS****************************************************************************
 
-One of the most popular game of chance is a dice game known as "craps", which is played in casinos and back alleys throughout the world. The rules of the game are:
+One of the most popular game of chance is a dice game known as "craps", which is played in casinos and back alleys throughout the world. 
+The rules of the game are:
 
 - A player rolls a six-faced dice containing 1, 2, 3, 4, 5 and 6 spots. After the dice have come to a rest, the sum of the spots on the two upward face is calculated
 - If the sum is 7 or 11 on the first throw, the player wins 
