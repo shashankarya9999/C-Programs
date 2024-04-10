@@ -9,6 +9,7 @@ int main()
 	int n = str_int( name );
 
 	printf("Integers: %d\n",n);
+	
 	return 0;
 }
 
@@ -19,5 +20,6 @@ int str_int( char *s )
 	{
 		num = num*10 + ( s[i] - 48 );
 	}
+	
 	return num;
 }
