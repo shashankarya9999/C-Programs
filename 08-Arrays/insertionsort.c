@@ -10,7 +10,6 @@ void swap( int *p, int *q )
 }
 
 int main()
-
 {
 	int a[10],n,i,j;
 
