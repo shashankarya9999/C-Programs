@@ -3,8 +3,8 @@
 
 int main()
 {
-	char str1[]="Shashank";
-	char str2[]="Arya";
+	char str1[] = "Shashank";
+	char str2[] = "Arya";
 	char str3[20];
 
 	printf("First String: %s\n",str1);
@@ -13,7 +13,7 @@ int main()
 	printf("String length of first string = %ld\n",strlen(str1));
 	printf("String length of second string = %ld\n",strlen(str2));
 
-	strcpy( str3,str1 );
+	strcpy( str3, str1 );
 
 	printf("Copied String: %s\n",str3);
 
