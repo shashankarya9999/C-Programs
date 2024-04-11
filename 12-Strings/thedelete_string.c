@@ -3,7 +3,7 @@
 
 void the_delete( char *s, int l ); 
 
-int main()	//work why consecutive 'the' are not getting deleted
+int main()	// work why consecutive 'the' are not getting deleted
 {
 	char str[30];
 
@@ -11,6 +11,8 @@ int main()	//work why consecutive 'the' are not getting deleted
 	fgets(str, 30, stdin);
 
 	the_delete( str, strlen(str) );
+
+	return 0;
 }
 
 void the_delete( char *s, int l )
