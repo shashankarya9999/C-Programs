@@ -17,7 +17,6 @@ The rules of the game are:
 #include<time.h>
 
 // enumeration constants represent game status
-
 enum status 
 {
     CONTINUE, WON, LOST
@@ -37,18 +36,15 @@ int main()
     sum = roll_dice();
 
     // determine game status based on sum of dice
-
     switch(sum)
     {
         // win on first roll
-
         case 7:
         case 11:
             game_status = WON;
             break;
 
         // lose on first roll
-
         case 2:
         case 3:
         case 12:
@@ -56,7 +52,6 @@ int main()
             break;
 
         // remember point
-
         default:
             game_status = CONTINUE;
             my_point = sum;
@@ -69,7 +64,6 @@ int main()
         sum = roll_dice(); // roll dice again
 
         // determine game status
-
         if(sum == my_point)
         {
             game_status = WON;
@@ -82,7 +76,6 @@ int main()
     }
 
     // display won or lost message
-
     if(game_status == WON)
     {
         printf("Player wins!\n");
@@ -107,7 +100,6 @@ int roll_dice(void)
     work_sum = die1 + die2;
 
     // display result of this roll
-
     printf("Player rolled %d + %d = %d\n", die1, die2, work_sum);
 
     return work_sum; // return sum of dice
