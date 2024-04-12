@@ -7,7 +7,6 @@ This problem was given in my professor's class notes.
 #include<stdio.h>
 
 int main()
-
 {
 	int a=1, b=0, c=7;
 	int e1,e2,e3,e4,e5,e6;
@@ -23,7 +22,7 @@ int main()
 	if(e2==1) printf("True. \n");
 	else printf("False. \n");
 
-	e3= !!c;
+	e3 = !!c;
 	
 	if(e3==0) printf("Value of third expression is: %d \nFalse. \n",e3);
 	else printf("Value of third expression is %d \nTrue. \n",e3);
