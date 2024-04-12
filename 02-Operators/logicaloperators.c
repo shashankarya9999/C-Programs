@@ -10,13 +10,14 @@ int main()
 {
 	int a=1, b=0, c=7;
 	int e1,e2,e3,e4,e5,e6;
-	e1= a&&b;
+	
+	e1 = a && b;
 	printf("Value of a AND b is: %d \n",e1);
 	
-	if(e1==0) printf("False. \n");
-	else printf("True. \n");
+	if(e1==0)	printf("False. \n");
+	else		printf("True. \n");
 
-	e2= a||b;
+	e2 = a || b;
 	printf("Value of a OR b is: %d \n",e2);
 	
 	if(e2==1) printf("True. \n");
