@@ -1,7 +1,6 @@
 #include<stdio.h>
 
 int main()
-
 {
 	int a=4;
 	int x;
@@ -9,6 +8,5 @@ int main()
 	printf("x = %d\n",x);
 	printf("a = %d\n",a);
 
-	return 0;
-		
+	return 0;		
 }
