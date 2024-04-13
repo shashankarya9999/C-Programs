@@ -1,6 +1,6 @@
 #include<stdio.h>
 
-int main()	//Let us C book( Pg. 144 )
+int main()	// Let us C book( Pg. 144 )
 {
 	int temp;
 	printf("Enter the temperature: ");
