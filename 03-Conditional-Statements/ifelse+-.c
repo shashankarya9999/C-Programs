@@ -1,7 +1,6 @@
 #include<stdio.h>
 
 int main()
-
 {
 
 	int value;
@@ -15,12 +14,11 @@ int main()
 
 	else 
 	{
-		if(value<0)	printf("%d is negative. \n",value);
+		if (value<0)	printf("%d is negative. \n",value);
 	
 
 		else		printf("%d is positive. \n",value);
 	}
 	
 	return 0;
-
 }
