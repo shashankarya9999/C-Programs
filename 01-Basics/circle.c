@@ -11,16 +11,16 @@ int main()
 	else
 	{
 		float R = g*g + f*f - c;
-		if( R > 0 )
-		{
-			printf("The radius is: %f\n",sqrt(R));
-		}
+		
+		if( R > 0 )		printf("The radius is: %f\n",sqrt(R));
+		
 		
 		else if( R == 0 )	printf("The circle is a unit circle\n");
 
-		else	printf("The circle is imaginary\n");
+		else			printf("The circle is imaginary\n");
 	}
 
 	printf("The centre is: ( -%f, -%f )\n",g,f);
+	
 	return 0;
 }
