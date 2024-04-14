@@ -9,16 +9,13 @@ If the assigned value would have been 0 i.e. a=0, then the next conditional stat
 #include<stdio.h>
 
 int main()
-
 {
 	int a=2;
 	
-	if( a=1 ) printf("a is one. \n");
-	else if(a==2)
+	if( a = 1 )	printf("a is one. \n");
+	else if( a == 2 )
 	{
-	
-	printf("a is two. \n");
-	
+		printf("a is two. \n");
 	}
 
 	else printf("a is %d \n",a);
