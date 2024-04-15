@@ -1,7 +1,6 @@
 #include<stdio.h>
 
 int main()
-
 {
 	int i,j,k,num;
 	char x='A';
@@ -21,7 +20,9 @@ int main()
 			printf("%c ",x);
 			x=x+1;
 		}
+		
 	printf("\n");
 	}
+	
 	return 0;
 }
