@@ -1,7 +1,6 @@
 #include<stdio.h>
 
 int main()
-
 {
 	int i,j,k,num;
 	int x;
@@ -18,12 +17,14 @@ int main()
 		
 		for( k=0; k<=i; k=k+1 )
 		{ 
-			if( i == 0 || k == 0 )	x=1;
-			else	x = (x*(i-k+1)/k);
+			if( i == 0 || k == 0 )		x = 1;
+			else				x = ( x * (i - k + 1) / k );
 
 			printf("%d ",x);
 		}
+		
 	printf("\n");
 	}
+	
 	return 0;
 }
