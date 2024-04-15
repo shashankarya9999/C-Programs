@@ -8,5 +8,6 @@ int main()
 	{
 		printf("Character: %c	Ascii: %d\n",ch,ch);
 	}
+	
 	return 0;
 }
