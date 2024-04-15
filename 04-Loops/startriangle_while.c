@@ -1,7 +1,6 @@
 #include<stdio.h>
 
 int main()
-
 {
 	int row=1;
 	int col;
@@ -11,6 +10,7 @@ int main()
 	scanf("%d",&num);
 	printf("\nYour Triangle!\n");
 	printf("\n");
+	
 	while( row <= num )
 	{	
 		col=1;
@@ -19,9 +19,12 @@ int main()
 			printf("*");
 			col=col+1;
 		} 
+	
 	printf("\n");
 	row=row+1;
 	}
+	
 	printf("\n");
+	
 	return 0;
 }
