@@ -1,7 +1,6 @@
 #include<stdio.h>
 
 int main()
-
 {
 	int counter,score,total,average;
 
@@ -26,5 +25,6 @@ int main()
 
 	average = total/counter;
 	printf("Class average is %d \n",average);
+	
 	return 0;
 }
