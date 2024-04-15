@@ -7,7 +7,6 @@ This program asks the user for two integer values then displays their sum and pr
 #include <stdio.h>
 
 int main()
-
 {
 	int value1,value2,sum;
 	printf("\nEnter two integer values:\n");
