@@ -1,6 +1,6 @@
 #include<stdio.h>
 
-int main()	//Euclid's Algorithm
+int main()	// euclid's algorithm
 {
 	int x,y,a,b,r;
 	printf("Enter two numbers in descending order: ");
@@ -15,6 +15,8 @@ int main()	//Euclid's Algorithm
 		x=y;
 		y=r;
 	}
+	
 	printf("The GCD of %d and %d is %d\n",a,b,x);
+	
 	return 0;
 }
