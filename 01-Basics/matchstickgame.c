@@ -2,7 +2,7 @@
 
 int main()
 {
-	int m=21, p ,c;
+	int m = 21, p, c;
 
 	while( 1 )
 	{
@@ -32,4 +32,6 @@ int main()
 			break;
 		}
 	}
+
+	return 0;
 }
