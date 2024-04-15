@@ -1,7 +1,6 @@
 #include<stdio.h>
 
 int main()
-
 {
 	int i,j;
 	
@@ -9,12 +8,13 @@ int main()
 	{
 		for( j=1; j<3; j=j+1 )
 		{
-			if( j%2 == 0 ) printf("O");
-			else printf("X");
+			if( j % 2 == 0 )	printf("O");
+			else 			printf("X");
 		}
 	
 	printf("\n");
 	}
+	
 	return 0;
 }
 
