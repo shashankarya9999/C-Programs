@@ -8,7 +8,7 @@ int main()
 	printf("Enter coefficient of x^2, x and c: ");
 	scanf("%f%f%f",&a,&b,&c);
 
-	if( a==0 )	printf("Not a quadratic equation!\n");
+	if( a == 0 )	printf("Not a quadratic equation!\n");
 
 	else
 	{
