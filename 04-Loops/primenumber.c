@@ -2,7 +2,6 @@
 #include<math.h>
 
 int main()
-
 {
 	int num,i,j;
 	int flag=1;
@@ -28,7 +27,9 @@ int main()
 			printf(" ");
 			printf("\n");
 		}
+	
 	flag=1;
-	}	
+	}
+	
 	return 0;	
 }
