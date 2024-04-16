@@ -26,7 +26,7 @@ void prime_factor(int m)
 		{
 			printf("%d",i);
 			printf("\n");
-			m=m/i;
+			m = m / i;
 		}
 	}
 }
