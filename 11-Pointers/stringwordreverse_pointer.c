@@ -1,14 +1,14 @@
 #include<stdio.h>
 #include<stdlib.h>
 
-void reverse(char *begin,char *end);
+void reverse(char *begin, char *end);
 
 int main()
 {
 	char *str;
-	str =(char *)malloc(50*sizeof(char));
+	str = ( char * )malloc( 50 * sizeof(char) );
 	printf("Enter a string: ");
-	fgets(str,50,stdin);
+	fgets( str, 50, stdin );
 
 	char *begin,*end;
 	begin = end = str;
@@ -30,11 +30,12 @@ int main()
 	end = str - 2;
 	reverse(begin,end);
 	
-	for(; begin<=end; begin++)  printf("%c",*begin);
+	for(; begin<=end; begin++)	printf("%c",*begin);
 	printf("\n");
 	
 	return 0;
 }
+
 void reverse (char *begin,char *end)
 {
 	char ch;
