@@ -10,7 +10,7 @@ int main()
     };
 
     struct date today,tomorrow;
-    static int days_per_month[12] = { 31,28,31,30,31,30,31,31,30,31,30,31 };
+    static int days_per_month[12] = { 31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31 };
 
     printf("Enter Today's date (dd mm yyyy): ");
     scanf("%d%d%d", &today.day, &today.month, &today.year);
