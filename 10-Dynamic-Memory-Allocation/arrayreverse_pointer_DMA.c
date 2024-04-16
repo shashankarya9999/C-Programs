@@ -12,22 +12,16 @@ int main()
 
 	printf("Enter the integers: ");
 
-	a = (int *)malloc( 5 * sizeof(int) );	
+	a = ( int * )malloc( 5 * sizeof(int) );	
 
-	for( i=0; i<n; i++ )
-	{
-		scanf("%d", a+i);
-	}
+	for( i=0; i<n; i++ )	scanf("%d", a+i);
 
 	printf("The entered array is: ");
 
-	for( i=0; i<n; i++ )
-	{
-		printf("%d ", *(a+i));
-	}
+	for( i=0; i<n; i++ )	printf("%d ", *(a+i));
 
 	printf("\n");
-	reverse( a,n );
+	reverse( a, n );
 	
 	return 0;
 }
