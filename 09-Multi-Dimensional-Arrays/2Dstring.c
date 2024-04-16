@@ -27,6 +27,7 @@ int main()
 	for( i=0; i<6; i++ )
 	{
 		a = strcmp( &masterlist[i][0], yourname );
+		
 		if( a == 0 )
 		{
 			printf("Welcome! You can enter the palace!\n");
