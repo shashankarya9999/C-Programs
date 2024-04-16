@@ -29,21 +29,15 @@ int main()
 	float A[6];
 	int i;
 	
-	for( i=0; i<6; i++ )
-	{
-		A[i] = area( t[i].a, t[i].b, t[i].d );
-	}
+	for( i=0; i<6; i++ )	A[i] = area( t[i].a, t[i].b, t[i].d );
 
-	for( i=0; i<6; i++ )
-	{
-		printf("Area of %d th triangular land = %f\n",i,A[i]);
-	}  
+	for( i=0; i<6; i++ )	printf("Area of %d th triangular land = %f\n",i,A[i]);
 
 	float max = A[0];
 	
 	for( i=0; i<6; i++ )
 	{
-		if( A[i]>max )	max = A[i];
+		if( A[i] > max )	max = A[i];
 	}
 	
 	printf("The maximum area is: %f\n",max);
