@@ -4,30 +4,23 @@
 float sum( int n[] )
 {
 	float sum=0.0;
-	for( int i=0; i<5; i++ )
-	{
-		sum = sum + n[i];
-	}
+	for( int i=0; i<5; i++ )	sum = sum + n[i];
+	
 	return (sum);
 }
 
 float avg( int n[] )
 {
 	float sum=0.0;
-	for( int i=0; i<5; i++ )
-	{
-		sum = sum + n[i];
-	}
+	for( int i=0; i<5; i++ )	sum = sum + n[i];
+
 	return ((sum)/5);
 }
 
 float sd( int a , int n[] )
 {
 	float sum = 0.0;
-	for( int i=0; i<5; i++ )
-	{
-		sum = sum + pow((n[i] - a),2);
-	}
+	for( int i=0; i<5; i++ )	sum = sum + pow((n[i] - a),2);
 
 	float sd = sqrt( sum/4 );
 
@@ -40,10 +33,7 @@ int main()
 	int i;
 	printf("Enter five integers: ");
 	
-	for( i=0; i<5; i++ )
-	{
-		scanf("%d",&num[i]);
-	}
+	for( i=0; i<5; i++ )	scanf("%d",&num[i]);
 
 	float su = sum( num );
 	float average = avg( num );
