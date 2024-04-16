@@ -9,7 +9,7 @@ int main()
 	printf("Enter the number of integers: ");
 	scanf("%d",&n);
 
-	a = (int *)malloc( n * sizeof(int) );
+	a = ( int * )malloc( n * sizeof(int) );
 
 	printf("Enter the integers: ");
 	for( i=0; i<n; i++ )	scanf("%d", a+i);
