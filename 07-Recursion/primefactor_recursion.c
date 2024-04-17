@@ -3,7 +3,6 @@
 void prime_factor(int m, int counter); 
 
 int main()
-
 {
 	int n;
 	
@@ -12,19 +11,20 @@ int main()
 
 	printf("Prime factors of %d are: \n",n);
 	
-	prime_factor(n,2);
+	prime_factor( n, 2 );
+	
 	return 0;
 }
 
 void prime_factor(int m, int counter)
 {
-	if( m<=1 )	return;
+	if( m <= 1 )	return;
 
-	else if( m%counter == 0 )
+	else if( m % counter == 0 )
 	{
 		printf("%d\n",counter);
-		prime_factor( m/counter, counter );
+		prime_factor( m / counter, counter );
 	}
 	
-	else	prime_factor( m, counter+1 );
+	else	prime_factor( m, counter + 1 );
 }
