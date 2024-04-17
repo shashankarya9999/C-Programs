@@ -8,7 +8,7 @@ int main()
 	int limit = sqrt(100);
 
 	int i,j;
-	num[0]=0;
+	num[0] = 0;
 
 	for( i=1; i<=100; i++ )
 	{
@@ -31,6 +31,8 @@ int main()
 	{
 		if( num[i] != 0 && num[i] != 1 )	printf("%d ",num[i]);
 	}
+	
 	printf("\n");
+	
 	return 0;
 }
