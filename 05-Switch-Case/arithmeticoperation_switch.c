@@ -7,11 +7,12 @@ This program takes two numbers as input and, according to the index input given 
 #include<stdio.h>
 
 int main()
-
 {
 	int num1,num2,index;
+	
 	printf("Enter two numbers: ");
 	scanf("%d%d",&num1,&num2);
+	
 	printf("Index of Addition=0 \n");
 	printf("Index of Subtraction=1 \n");
 	printf("Index of Multiplication=2 \n");
@@ -21,12 +22,11 @@ int main()
 	printf("\nEnter the index: ");
 	scanf("%d",&index);	
 
-	/*
-	   Index for addition=0
-	   Index for subtraction=1
-	   Index for multiplication=2
-	   Index for division=3
-      	*/
+	// Index for addition=0
+	// Index for subtraction=1
+	// Index for multiplication=2
+	// Index for division=3
+	
 	switch( index )
 	{
 		case 0: 
