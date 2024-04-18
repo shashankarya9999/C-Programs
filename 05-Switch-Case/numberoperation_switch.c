@@ -5,10 +5,7 @@ void factorial( int n )
 	int i;
 	int var=1;
 	
-	for( i=1; i<=n; i++ )
-	{
-		var = var*i;
-	}
+	for( i=1; i<=n; i++ )	var = var*i;
 	
 	printf("Factorial is: %d\n",var);
 }
