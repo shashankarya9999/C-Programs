@@ -32,7 +32,7 @@ float sd( int a , int na[], int n )
 
 int main()	// Let us C( Pg. 322 )
 {
-	int num[]={ -6,-12,8,13,11,6,7,2,-6,-9,-10,11,10,9,2 };
+	int num[]={ -6, -12, 8, 13, 11, 6, 7, 2, -6, -9, -10, 11, 10, 9, 2 };
 	int i;
 
 	int n = ( sizeof( num ) ) / ( sizeof( num[0] ) );
