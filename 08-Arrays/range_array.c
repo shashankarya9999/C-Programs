@@ -9,20 +9,18 @@ int main()
 	int num[n];
 	printf("Enter the integers: ");
 
-	for( i=0; i<n; i++ )
-	{
-		scanf("%d",&num[i]);
-	}
+	for( i=0; i<n; i++ )	scanf("%d",&num[i]);
 	
 	int max=num[0], min=num[0];
 
 	for( i=0; i<n; i++ )
 	{
-		if( num[i] > max )	max = num[i];
+		if( num[i] > max )		max = num[i];
 
-		else if( num[i] < min )	min = num[i];
+		else if( num[i] < min )		min = num[i];
 	}	
 
 	printf("The range is: %d\n",max-min);
-	
+
+	return 0;
 }
