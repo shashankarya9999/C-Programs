@@ -4,6 +4,7 @@
 int main()
 {
 	float a,b,g,f,c;
+	
 	printf("Enter coefficient of x^2, y^2, x, y, c: ");
 	scanf("%f%f%f%f%f",&a,&b,&g,&f,&c);
 
@@ -13,7 +14,6 @@ int main()
 		float R = g*g + f*f - c;
 		
 		if( R > 0 )		printf("The radius is: %f\n",sqrt(R));
-		
 		
 		else if( R == 0 )	printf("The circle is a unit circle\n");
 
