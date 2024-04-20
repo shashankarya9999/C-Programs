@@ -10,7 +10,7 @@ int main()
 		printf("Pick: 1/2/3/4 matches: ");
 		scanf("%d",&p);
 		
-		if( p<1 || p>4 )	
+		if( p < 1 || p > 4 )	
 		{
 			continue;
 		}
