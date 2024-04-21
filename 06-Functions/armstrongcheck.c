@@ -36,7 +36,7 @@ int digit( int m )
         int counter;
         while( m != 0 )
         {
-                m = m/10;
+                m = m / 10;
                 counter++;
         }
 
@@ -48,19 +48,19 @@ void fill_array( int m, int d[] )
         int i;
         while( m != 0 )
         {
-                d[i] = m%10;
-                m=m/10;
+                d[i] = m % 10;
+                m = m / 10;
                 i++;
         }
 }
 
 int cubic_sum( int m, int d[] )
 {
-        int sum=0,i;
+        int sum=0, i;
 
         for( i=0; i<m; i++ )
         {
-                sum = sum + pow( d[i],3 );
+                sum = sum + pow( d[i], 3 );
         }
 
         return (sum);
