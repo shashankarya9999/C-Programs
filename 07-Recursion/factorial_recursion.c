@@ -8,7 +8,7 @@ int main()
 	printf("Enter a positive integer: ");
 	scanf("%d",&n);
 
-	f = factrec( n );
+	f = factrec(n);
 	printf("The factorial of %d is %d\n",n,f);
 
 	return 0;
