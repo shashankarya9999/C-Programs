@@ -26,15 +26,15 @@ int main()
 	printf("Enter the first coordinate(C): ");
 	scanf("%d%d",&c3.x,&c3.y); 
 	
-	float d1=dist( c1,c2 );
-	float d2=dist( c2,c3 );
-	float d3=dist( c3,c1 );
+	float d1=dist( c1, c2 );
+	float d2=dist( c2, c3 );
+	float d3=dist( c3, c1 );
 
 	printf("AB = %f\n",d1);
 	printf("BC = %f\n",d2);
 	printf("CA = %f\n",d3);
 
-	if( (d1+d2 == d3) || (d2+d3 == d1) || (d3+d1 == d2) )
+	if( ( d1 + d2 == d3) || ( d2 + d3 == d1 ) || ( d3 + d1 == d2 ) )
 	{
 		printf("Points are collinear!\n");
 		printf("Area of triangle = 0\n");
@@ -42,7 +42,7 @@ int main()
 
 	else
 	{
-		float area = tri_area( d1,d2,d3 );
+		float area = tri_area( d1, d2, d3 );
 		printf("Area of triangle = %f\n",area);
 	}
 	
@@ -64,9 +64,9 @@ float tri_area( float d1, float d2, float d3 )
 {
 	float s;
 
-	s = ( d1+d2+d3 )/2;
+	s = ( d1 + d2 + d3 )/2;
 	
-	float area = sqrt( s*(s-d1)*(s-d2)*(s-d3) );
+	float area = sqrt( s*( s - d1 )*( s - d2 )*( s - d3 ) );
 	
 	return area;
 }
