@@ -9,7 +9,6 @@ Here, no swapping of values of num1 and num2 occurs because changes to local var
 void swap( int num1, int num2 ); // Function Prototype
 
 int main()
-
 {
 	int num1=20;
 	int num2=30;
@@ -17,7 +16,7 @@ int main()
 	printf("num1 and num2 before call to swap:\n");
 	printf("num1=%d, num2=%d\n",num1,num2);
 
-	swap( num1,num2 ); // Swap function called by main function
+	swap( num1, num2 ); // Swap function called by main function
 	
 	printf("num1 and num2 after call to swap:\n");
 	printf("num1=%d, num2=%d\n",num1,num2);
@@ -26,11 +25,10 @@ int main()
 }
 
 void swap( int num1, int num2 ) // Swap function declaration
-
 {
 	int temp;
-	temp=num1;
-	num1=num2;
-	num2=temp;
+	temp = num1;
+	num1 = num2;
+	num2 = temp;
 }
 
