@@ -16,7 +16,7 @@ int main()
 	
 	for( i=0; i<1000; i++ )
 	{
-		int sum=0;
+		int sum = 0;
 		sum = cubic_sum(i);
 		if( i == sum )
 		{
@@ -30,7 +30,7 @@ int main()
 int cubic_sum( int m )
 {
 	int rem,sum=0;
-	while( m!=0 )
+	while( m != 0 )
 	{
 		rem = m % 10;
 		sum = sum + pow( rem, 3 );
