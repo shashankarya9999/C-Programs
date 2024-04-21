@@ -3,8 +3,8 @@
 int main()
 {
 	int numStudents,counter,total,score,average;
-	total=0;
-	counter=1;
+	total = 0;
+	counter = 1;
 	
 	printf("Enter the number of students: \n");
 	scanf("%d",&numStudents);
@@ -13,8 +13,8 @@ int main()
 	{
 		printf("Enter a score: \n");
 		scanf("%d",&score);
-		total=total+score;
-		counter=counter+1;
+		total = total + score;
+		counter = counter + 1;
 	}
 
 	average = total / numStudents ;
