@@ -1,6 +1,7 @@
 /*
 
-This program takes in a 2x2 matrix; and then uses a function called adjoint to compute the adjoint of the input matrix. One interesting fact about the adjoint function is that it uses another function swap.
+This program takes in a 2x2 matrix; and then uses a function called adjoint to compute the adjoint of the input matrix.
+One interesting fact about the adjoint function is that it uses another function swap.
 
 */
 
@@ -29,12 +30,13 @@ int main()
 		{
 			printf("%d ",mat[i][j]);
                 }
+		
 	printf("\n");
         }
 
 	printf("The adjoint is:\n");
-
 	adjoint( mat );
+	
 	return 0;
 }
 
@@ -49,8 +51,10 @@ void adjoint( int m[][2] )
 			{
 				m[i][j] = -m[i][j];
 			}
+			
 			printf("%d ",m[i][j]);
 		}
+		
 	printf("\n");
 	}
 }
