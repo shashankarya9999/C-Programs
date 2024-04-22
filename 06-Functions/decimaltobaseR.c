@@ -3,7 +3,6 @@
 void decimal_baseR( int n, int R );
 
 int main()
-
 {
 	int num,r;
 	
@@ -22,11 +21,11 @@ void decimal_baseR( int n, int R )
 {
 	int bin = 0, pos = 1;
 	
-	while( n )
+	while(n)
 	{
-		bin = bin + pos*( n%R );
-		n=n/R;
-		pos = pos*10;
+		bin = bin + pos*( n % R );
+		n = n / R;
+		pos = pos * 10;
 	} 
 
 	printf("Number in base %d is %d\n",R,bin);
