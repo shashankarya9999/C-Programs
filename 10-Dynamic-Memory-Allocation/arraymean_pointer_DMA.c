@@ -34,7 +34,7 @@ float findMean( int *p, int m )
 
 	for( j=0; j<m; j++ )	total = total + *( p + j );
 
-	avg = total/m;
+	avg = total / m;
 	
 	return avg;
 }
