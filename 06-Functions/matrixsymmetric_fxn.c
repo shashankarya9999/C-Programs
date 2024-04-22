@@ -26,6 +26,7 @@ int main()
 		{
 			printf("%d ",mat[i][j]);
 		}
+		
 	printf("\n");
 	}
 
@@ -51,6 +52,7 @@ int check_sym( int n, int m[][n] )
 		{
 			printf("%d ",t[i][j]);
 		}
+		
 	printf("\n");
 	}	
 
