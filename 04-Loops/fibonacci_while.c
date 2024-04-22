@@ -1,7 +1,6 @@
 #include<stdio.h>
 
 int main()
-
 {
 	int a=1,b=0;
 	int n,c;
@@ -9,17 +8,17 @@ int main()
 	printf("Enter number of terms: ");
 	scanf("%d",&n);
 
-	int i=1;
+	int i = 1;
 	
-	while( i<=n )
+	while( i <= n )
 	{
-		c=a+b;
-		a=b;
-		b=c;
+		c = a + b;
+		a = b;
+		b = c;
 
 		printf("%d ",a);
 	
-		i=i+1;
+		i = i + 1;
 	}
 
 	printf("\n");
