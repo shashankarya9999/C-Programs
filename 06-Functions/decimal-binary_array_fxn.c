@@ -4,7 +4,6 @@
 void convert_to_bin( int a, int b );
 
 int main()
-
 {
 	int dec,n;
 	
@@ -14,9 +13,9 @@ int main()
 	printf("Enter a decimal number between 0 and 2^n - 1: ");
 	scanf("%d",&dec);
 
-	if( dec > pow(2,n) - 1 )	printf("Entered number is out of range!\n");
+	if( dec > ( pow(2,n) - 1 ) )	printf("Entered number is out of range!\n");
 	
-	else	convert_to_bin( dec, n );
+	else				convert_to_bin( dec, n );
 
 	return 0;
 }
@@ -31,11 +30,10 @@ void convert_to_bin( int a, int b )
 	{
 		rem[i] = a % 2;
 		a = a / 2;
-		i=i+1;
+		i = i + 1;
 	}
 
 	printf("The binary equivalent of the entered decimal number is: ");
-
 	for( j=i-1; j>=0; j=j-1 )
 	{
 		printf("%d ",rem[j]);
