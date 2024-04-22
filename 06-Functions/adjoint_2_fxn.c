@@ -35,7 +35,7 @@ int main()
         }
 
 	printf("The adjoint is:\n");
-	adjoint( mat );
+	adjoint(mat);
 	
 	return 0;
 }
