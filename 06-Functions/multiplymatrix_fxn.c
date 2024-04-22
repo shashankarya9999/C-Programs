@@ -12,7 +12,6 @@ int main()
 	int matrix1[m1][n1];
 	
 	printf("Enter the elements in row-major form: ");
-
         for( i=0; i<m1; i=i+1 )
         {
                 for( j=0; j<n1; j=j+1 )
@@ -22,7 +21,6 @@ int main()
         }
 
         printf("The First matrix is: \n");
-
         for( i=0; i<m1; i=i+1 )
         {
                 for( j=0; j<n1; j=j+1 )
@@ -39,7 +37,6 @@ int main()
         int matrix2[m2][n2];
 
         printf("Enter the elements in row-major form: ");
-
         for( i=0; i<m2; i=i+1 )
         {
                 for( j=0; j<n2; j=j+1 )
@@ -49,7 +46,6 @@ int main()
         }
 
         printf("The Second matrix is: \n");
-
         for( i=0; i<m2; i=i+1 )
         {
                 for( j=0; j<n2; j=j+1 )
@@ -62,7 +58,7 @@ int main()
 
 	if( n1 == m2 )	multiplymat( m1, m2, n1, n2, matrix1, matrix2 );
 
-	else	printf("Matrix Multiplication is not possible!\n");
+	else		printf("Matrix Multiplication is not possible!\n");
 
 	return 0;
 }
@@ -91,12 +87,11 @@ void multiplymat( int p1, int p2, int q1, int q2, int A[][q1], int B[][q2] )
 			}
 
 		resultant[i][j] = sum;
-		sum=0;
+		sum = 0;
 		}
 	}	
 
 	printf("The product of the two matrices is:\n");
-
 	for( i=0; i<p1; i++ )
 	{
 		for( j=0; j<q2; j++ )
