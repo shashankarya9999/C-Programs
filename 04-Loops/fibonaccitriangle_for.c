@@ -1,7 +1,6 @@
 #include<stdio.h>
 
 int main()
-
 {
         int row,col,num;
         int a=0,b=1,c;
@@ -13,13 +12,15 @@ int main()
         {
                 for( col=1; col<=row; col=col+1 )
                 {
-			c=a+b;
-			a=b;
-			b=c;
+			c = a + b;
+			a = b;
+			b = c;
                         printf("%d",c);
                         printf(" ");
                 }
+		
         printf("\n");
         }
 
+	return 0;
 }
