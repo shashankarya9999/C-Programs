@@ -24,6 +24,6 @@ void fillArray( int anArray[], int numElements )
 	
 	for( i=0; i<numElements; i=i+1 )
 	{
-		anArray[i]=i;
+		anArray[i] = i;
 	}
 }
