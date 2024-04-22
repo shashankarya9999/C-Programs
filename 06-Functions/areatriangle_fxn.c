@@ -26,9 +26,9 @@ int main()
 	printf("Enter the first coordinate(C): ");
 	scanf("%d%d",&c3.x,&c3.y); 
 	
-	float d1=dist( c1, c2 );
-	float d2=dist( c2, c3 );
-	float d3=dist( c3, c1 );
+	float d1 = dist( c1, c2 );
+	float d2 = dist( c2, c3 );
+	float d3 = dist( c3, c1 );
 
 	printf("AB = %f\n",d1);
 	printf("BC = %f\n",d2);
@@ -49,7 +49,7 @@ int main()
 	return 0;	
 }
 
-float dist(struct point p1, struct point p2)
+float dist( struct point p1, struct point p2 )
 {
 	float d,dx,dy;
 		
