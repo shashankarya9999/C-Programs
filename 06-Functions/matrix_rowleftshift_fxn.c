@@ -6,7 +6,7 @@ void swap( int *x, int *y )
         int temp;
         temp = (*x);
         (*x) = (*y);
-        (*y)= temp;
+        (*y) = temp;
 }
 
 int main()	
@@ -33,6 +33,7 @@ int main()
                 {
                         printf("%d ",mat[i][j]);
                 }
+		
 	printf("\n");
         }
 
@@ -50,6 +51,7 @@ int main()
                 {
                         printf("%d ",mat[i][j]);
                 }
+		
         printf("\n");
         }
 
@@ -58,8 +60,8 @@ int main()
 
 void left_shift( int *p, int n )
 {
-        swap(  (p),(p+2) );
-        swap(  (p+1),(p+4) );
-        swap(  (p+2),(p+3) );
-        swap(  (p+1),(p+2) );
+        swap( (p), (p+2) );
+        swap( (p+1), (p+4) );
+        swap( (p+2), (p+3) );
+        swap( (p+1), (p+2) );
 }
