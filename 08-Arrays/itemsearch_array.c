@@ -36,7 +36,7 @@ void find_array( int item[], int a, int b )
 		{
 			printf("Found!\n");
 			printf("The searched item is at index = %d\n",j);
-			flag=1;
+			flag = 1;
 		}
 	}
 	
