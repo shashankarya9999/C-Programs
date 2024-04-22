@@ -1,7 +1,7 @@
 #include<stdio.h>
 
-void mat_transpose( int p, int q, int a[][q] );		//Transpose with another array declaration
-void mat_transpose2( int p, int q, int a[][q] );	//Transpose without another array declaration
+void mat_transpose( int p, int q, int a[][q] );		// transpose with another array declaration
+void mat_transpose2( int p, int q, int a[][q] );	// transpose without another array declaration
 
 int main()
 {
@@ -12,8 +12,7 @@ int main()
 
 	int mat[m][n];
 
-	printf("Enter the elements in row-major form: ");
-	
+	printf("Enter the elements in row-major form: ");	
 	for( i=0; i<m; i++ )
 	{
 		for( j=0; j<n; j++ )
@@ -23,7 +22,6 @@ int main()
 	}
 
 	printf("The matrix is: \n");
-
 	for( i=0; i<m; i++ )
 	{
 		for( j=0; j<n; j++ )
@@ -62,7 +60,6 @@ void mat_transpose( int p, int q, int a[][q] )
 	}
 
 	printf("The transpose of given matrix is:\n");
-
 	for( i=0; i<q; i++ )
 	{
 		for( j=0; j<p; j++ )
@@ -79,7 +76,6 @@ void mat_transpose2( int p, int q, int a[][q] )
 	int i,j;
 
 	printf("The transpose of the given matrix is:\n");
-	
 	for( i=0; i<q; i++ )
 	{
 		for( j=0; j<p; j++ )
