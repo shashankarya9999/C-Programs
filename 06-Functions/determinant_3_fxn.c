@@ -6,8 +6,8 @@ int main()
 {
 	int mat[3][3];
 	int i,j;
-	printf("Enter the elements in row-major form: ");
 	
+	printf("Enter the elements in row-major form: ");
 	for( i=0; i<3; i++ )
 	{
 		for( j=0; j<3; j++ )
@@ -17,7 +17,6 @@ int main()
 	}
 
 	printf("The matrix is:\n");
-
 	for( i=0; i<3; i++ )
 	{
 		for( j=0; j<3; j++ )
@@ -28,7 +27,7 @@ int main()
 	printf("\n");
 	}
 
-	det( mat );
+	det(mat);
 
 	return 0;
 }
