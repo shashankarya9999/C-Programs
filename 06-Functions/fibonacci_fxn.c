@@ -9,7 +9,7 @@ int main()
 	printf("Enter numeber of terms: ");
 	scanf("%d",&num);
 
-	fib( num );
+	fib(num);
 	
 	return 0;
 }
@@ -21,9 +21,9 @@ void fib( int n )
 	
 	for( i=0; i<n; i=i+1 )
 	{
-		c=a+b;
-		a=b;
-		b=c;	
+		c = a + b;
+		a = b;
+		b = c;	
 		printf("%d ",a);
 	}
 
