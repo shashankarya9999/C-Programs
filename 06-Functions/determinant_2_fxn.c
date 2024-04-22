@@ -26,7 +26,7 @@ int main()
 	printf("\n");
 	}
 	
-	det( mat );
+	det(mat);
 	
 	return 0;
 }
@@ -35,7 +35,7 @@ void det( int m[][2] )
 {
 	int d;
 	
-	d = (m[0][0]*m[1][1]) + (m[0][1]*m[1][0]);
+	d = ( m[0][0] * m[1][1] ) + ( m[0][1] * m[1][0] );
 
 	printf("Determinant = %d\n",d);	
 }
