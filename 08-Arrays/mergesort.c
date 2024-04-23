@@ -11,7 +11,6 @@ void swap( int *p, int *q )
 }
 
 int main()	//work on this
-
 {
 	int a[10],n,i,j;
 
@@ -32,7 +31,7 @@ int main()	//work on this
 	}
 	printf("\n");
 
-	merge_sort( a,n );
+	merge_sort( a, n );
 
 	printf("The sorted array is: ");
 	for( j=0; j<n; j=j+1 )
@@ -47,9 +46,9 @@ int main()	//work on this
 
 void merge_sort( int a[], int m )
 {
-	if( m <= 0 )	return; //base case
+	if( m <= 0 )	return; // base case
 
-	int middle = m/2;
+	int middle = m / 2;
 	int la[middle], ra[m - middle];	
 	
 	for( int i=0,j=0; i < middle; i++ )
@@ -58,12 +57,14 @@ void merge_sort( int a[], int m )
 		{
 			la[i] = a[i];
 		}
+			
 		else
 		{
 			ra[j] = a[i];
 			j++;
 		}
 	}
+	
 	merge_sort( la, m );
 	merge_sort( ra, m );
 	merge( la, ra, a, m );    
@@ -71,7 +72,7 @@ void merge_sort( int a[], int m )
 
 void merge( int la[], int ra[], int a[], int m )
 {
-	int left_size = m/2;
+	int left_size = m / 2;
 	int right_size = m - left_size;
 
 	int i=0;
