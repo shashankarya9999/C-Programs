@@ -1,6 +1,6 @@
 #include<stdio.h>
 
-void find_array( int array[], int a, int b );
+void find_array( int item[], int a, int b );
 
 int main()
 {
@@ -23,6 +23,8 @@ int main()
 	scanf("%d",&k);
 
 	find_array( item, k, num );
+
+	return 0;
 }
 
 void find_array( int item[], int a, int b )
