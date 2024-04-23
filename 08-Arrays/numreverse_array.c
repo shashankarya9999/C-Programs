@@ -17,12 +17,13 @@ int main()
 	
 	return 0;
 }
+
 int num_digit( int p )
 {
 	int counter = 0;
 	while( p != 0 )
 	{
-		p = p/10;
+		p = p / 10;
 		counter = counter + 1;
 	}
 
@@ -38,19 +39,16 @@ void num_reverse( int d, int m )
         while( m != 0 )
         {
                 num[i] = m % 10;
-                m = m/10;
-                i=i+1;
+                m = m / 10;
+                i = i + 1;
         }
 
         for( i=0; i<d; i++ )
         {
                 if( num[i] < 0 && i==0 )	printf("-");
-		if( num[i] < 0 )
-		{
-				printf("%d",-num[i]);
-		}	
-		
-		else			printf("%d",num[i]);
+		if( num[i] < 0 )		printf("%d",-num[i]);		
+		else				printf("%d",num[i]);
         }
+	
         printf("\n");
 }
