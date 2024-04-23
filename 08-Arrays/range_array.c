@@ -11,7 +11,7 @@ int main()
 
 	for( i=0; i<n; i++ )	scanf("%d",&num[i]);
 	
-	int max=num[0], min=num[0];
+	int max = num[0], min = num[0];
 
 	for( i=0; i<n; i++ )
 	{
