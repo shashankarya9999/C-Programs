@@ -1,13 +1,7 @@
 #include<stdio.h>
 
 void left_shift( int *p , int n );
-void swap( int *x, int *y )
-{
-        int temp;
-        temp = (*x);
-        (*x) = (*y);
-        (*y) = temp;
-}
+void swap( int *x, int *y );
 
 int main()	
 {
@@ -41,7 +35,7 @@ int main()
 	for( int i=0; i<m; i++ )
 	{
 		p = mat[i];
-		left_shift(p,n);
+		left_shift( p, n );
 	}
 	
 	printf("The re-arranged matrix is:\n");
@@ -60,8 +54,16 @@ int main()
 
 void left_shift( int *p, int n )
 {
-        swap( (p), (p+2) );
-        swap( (p+1), (p+4) );
-        swap( (p+2), (p+3) );
-        swap( (p+1), (p+2) );
+        swap( ( p ), ( p + 2 ) );
+        swap( ( p + 1 ), ( p + 4 ) );
+        swap( ( p + 2 ), ( p + 3 ) );
+        swap( ( p + 1 ), ( p + 2 ) );
+}
+
+void swap( int *x, int *y )
+{
+        int temp;
+        temp = *x;
+        *x = *y;
+        *y = temp;
 }
