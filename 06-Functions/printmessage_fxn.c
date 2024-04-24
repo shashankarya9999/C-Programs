@@ -3,7 +3,6 @@
 void printmessage( int counter );
 
 int main()
-
 {
         int num;
 	
@@ -25,7 +24,6 @@ outputs: None(because return type is void)
 */
 
 void printmessage( int counter )
-
 {
         int i;
 	
