@@ -13,9 +13,9 @@ int main()
 	printf("Enter a decimal number between 0 and 2^n - 1: ");
 	scanf("%d",&dec);
 
-	if( dec > ( pow(2,n) - 1 ) )	printf("Entered number is out of range!\n");
+	if( dec > ( pow( 2, n ) - 1 ) )		printf("Entered number is out of range!\n");
 	
-	else				convert_to_bin( dec, n );
+	else					convert_to_bin( dec, n );
 
 	return 0;
 }
