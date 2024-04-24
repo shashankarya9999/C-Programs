@@ -31,12 +31,14 @@ int main()
 	}
 
 	check_sym( n, mat );
+	
 	return 0;
 }
 
 int check_sym( int n, int m[][n] )
 {
 	int t[n][n];
+	
 	for( int i=0; i<n; i++ )
 	{
 		for( int j=0; j<n; j++ )
@@ -72,5 +74,4 @@ int check_sym( int n, int m[][n] )
 
         if( flag == 0 )         printf("Matrix is symmetric\n");
         else                    printf("Matrix is not symmetric\n");
-
 }
