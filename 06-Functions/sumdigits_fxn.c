@@ -10,7 +10,7 @@ int main()
 	printf("Enter a number: ");
 	scanf("%d",&n);
 
-	int digit = num_digit( n );
+	int digit = num_digit(n);
 
 	sod( digit, n );  
 	
@@ -20,9 +20,10 @@ int main()
 int num_digit( int p )
 {
 	int counter = 0;
+	
 	while( p != 0 )
 	{
-		p = p/10;
+		p = p / 10;
 		counter = counter + 1;
 	}
 
@@ -39,7 +40,7 @@ void sod( int d, int m )
         {
                 num[i] = m % 10;
                 m = m/10;
-                i=i+1;
+                i = i + 1;
         }
 
 	int sum = 0;
@@ -49,6 +50,5 @@ void sod( int d, int m )
 		sum = sum + num[i];         
         }
 	
-        printf("\n");
-	printf("Sum of digits = %d\n",sum);	
+	printf("\nSum of digits = %d\n",sum);	
 }
