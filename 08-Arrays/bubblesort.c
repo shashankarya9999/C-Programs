@@ -9,7 +9,6 @@ This program implements the bubble sort algorithm to sort an array
 void sort( int [], int );
 
 int main()
-
 {
 	int a[10],n,i,j;
 
@@ -30,7 +29,7 @@ int main()
 	}
 	printf("\n");
 
-	sort( a,n );
+	sort( a, n );
 
 	printf("The sorted array is: ");
 	for( j=0; j<n; j=j+1 )
@@ -47,7 +46,7 @@ void sort( int b[], int m )
 {
 	int i,j,temp = 0;
 	
-	for( i=0; i< m-1; i++ )
+	for( i=0; i<m-1; i++ )
 	{
 		printf("Pass %d: ",i);
 		for( j=0; j<m; j++ )
@@ -58,9 +57,10 @@ void sort( int b[], int m )
 				b[j] = b[j+1];
 				b[j+1] = temp;
 			}
+			
 		printf("%d ",b[j]);
 		}
+		
 	printf("\n");
-	}	
-	
+	}		
 }
