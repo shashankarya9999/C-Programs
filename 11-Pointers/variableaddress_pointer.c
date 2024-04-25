@@ -15,7 +15,7 @@ int main()
 
 	printf("\n");
 
-	for( int k=0; k<4; k++ )	printf("The address of %dth element is%p\n",k,(a+k));
+	for( int k=0; k<4; k++ )	printf("The address of %dth element is: %p\n",k,(a+k));
 
 	return 0;
 }
