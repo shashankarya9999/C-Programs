@@ -11,7 +11,7 @@ int main()
 	printf("Enter the value of y: ");
 	scanf("%d",&y);
 
-	A = Ackermann( x,y );
+	A = Ackermann( x, y );
 
 	printf("The Ackermann value is: %d\n",A);
 
@@ -20,9 +20,9 @@ int main()
 
 int Ackermann( int a, int b )
 {
-	if( a == 0 )		return ( b+1 );
+	if( a == 0 )		return ( b + 1 );
 
-	else if( b == 0 )	return ( Ackermann( a-1, 1 ) );
+	else if( b == 0 )	return ( Ackermann( a - 1, 1 ) );
 
-	else			return ( Ackermann( a-1, Ackermann( a, b-1 ) ) );
+	else			return ( Ackermann( a - 1, Ackermann( a, b - 1 ) ) );
 }
