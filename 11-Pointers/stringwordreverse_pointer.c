@@ -16,11 +16,13 @@ int main()
 	printf("The reversed string is as follows:\n");
 	for(; *str != '\0'; str++)
 	{
-		if( *str == ' ')
+		if( *str == ' ' )
 		{
 			end = str - 1;
-			reverse (begin,end);
-			for(; begin<=end; begin++)  printf("%c",*begin);
+			reverse( begin, end );
+			
+			for( ;begin<=end; begin++ )	printf("%c",*begin);
+			
 			printf(" ");
 			begin = end + 2;
 			end = end + 2;
@@ -28,9 +30,9 @@ int main()
 	}
 	
 	end = str - 2;
-	reverse(begin,end);
+	reverse( begin, end );
 	
-	for(; begin<=end; begin++)	printf("%c",*begin);
+	for( ;begin<=end; begin++ )	printf("%c",*begin);
 	printf("\n");
 	
 	return 0;
@@ -40,7 +42,7 @@ void reverse (char *begin,char *end)
 {
 	char ch;
 	
-	while(end > begin)
+	while( end > begin )
 	{
 		ch = *end;
 		*end = *begin;
