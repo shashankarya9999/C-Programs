@@ -10,7 +10,7 @@ int main()
 	printf("Enter a string: ");
 	fgets( str, 30, stdin );
 
-	flag = palindrome( str );
+	flag = palindrome(str);
 
 	if( flag == 1 )		printf("The entered string is palindrome.\n");
 	else			printf("The entered string is not a palindrome.\n");
@@ -40,6 +40,6 @@ int palindrome( char *str )
 		high--;
 	}
 
-	return (flag);
+	return flag;
 }  
 
