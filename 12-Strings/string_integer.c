@@ -18,7 +18,7 @@ int str_int( char *s )
 	int num = 0;
 	for( int i=0; s[i] != '\0'; i++ )
 	{
-		num = num*10 + ( s[i] - 48 );
+		num = num * 10 + ( s[i] - 48 );
 	}
 	
 	return num;
