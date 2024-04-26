@@ -9,17 +9,17 @@ int main()
 	printf("Enter a string: ");
 	fgets( str, MAX, stdin );
 	
-	convert( str );
+	convert(str);
 	
 	printf("The converted string is: ");
-	puts( str );
+	puts(str);
 
 	return 0;	
 }
 
 void convert( char *a )
 {
-	for( ; *a != '\0' ; a++ )
+	for( ;*a != '\0'; a++ )
 	{
 		if( *a >= 'A' && *a <= 'Z' )
 		{
