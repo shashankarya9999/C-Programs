@@ -16,7 +16,7 @@ int main()
 
 	//printf("%s\n",name);	
 
-	puts( name );
+	puts(name);
 
 	return 0;
 }
