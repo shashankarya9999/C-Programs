@@ -4,7 +4,7 @@ int main()
 {
 	int m = 21, p, c;
 
-	while( 1 )
+	while(true)
 	{
 		printf("Number of matchsticks left = %d\n",m);
 		printf("Pick: 1/2/3/4 matches: ");
