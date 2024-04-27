@@ -1,7 +1,6 @@
 #include<stdio.h>
 
 int main()
-
 {
 	int i,j,k,num;
 	
@@ -21,7 +20,6 @@ int main()
 		}
 	
 	printf("\n");
-
 	}
 	
 	return 0;
