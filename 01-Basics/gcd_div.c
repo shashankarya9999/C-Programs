@@ -7,8 +7,8 @@ int main()	// euclid's algorithm
 	printf("Enter two numbers in descending order: ");
 	scanf("%d%d",&a,&b);
 
-	x=a;
-	y=b;
+	x = a;
+	y = b;
 	
 	while( y != 0 )
 	{
