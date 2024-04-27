@@ -11,7 +11,7 @@ int main()
 	if( a != b )	printf("Not a circle!\n");
 	else
 	{
-		float R = g*g + f*f - c;
+		float R = g * g + f * f - c;
 		
 		if( R > 0 )		printf("The radius is: %f\n",sqrt(R));
 		
