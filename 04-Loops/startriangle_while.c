@@ -2,7 +2,7 @@
 
 int main()
 {
-	int row=1;
+	int row = 1;
 	int col;
 	int num;
 
@@ -13,15 +13,15 @@ int main()
 	
 	while( row <= num )
 	{	
-		col=1;
+		col = 1;
 		while( col <= row )
 		{
 			printf("*");
-			col=col+1;
+			col = col + 1;
 		} 
 	
 	printf("\n");
-	row=row+1;
+	row = row + 1;
 	}
 	
 	printf("\n");
