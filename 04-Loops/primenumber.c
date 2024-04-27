@@ -13,9 +13,9 @@ int main()
 	{
 		for( j=2; j<=sqrt(i) ; j++ )
 		{
-			if( i%j == 0 ) 
+			if( i % j == 0 ) 
 			{
-				flag=0;
+				flag = 0;
 				break;
 			}
 
@@ -28,7 +28,7 @@ int main()
 			printf("\n");
 		}
 	
-	flag=1;
+	flag = 1;
 	}
 	
 	return 0;	
