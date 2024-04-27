@@ -8,6 +8,7 @@ int main()
 	int x = TRUE;
 	
 	printf("bool is %d\n",x);
+	
 	return 0;
 }
 
