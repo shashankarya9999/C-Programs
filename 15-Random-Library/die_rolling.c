@@ -17,7 +17,7 @@ int main()
 
     srand(seed); // seed random number generator
 
-    for(i=1; i <= 10; i++)
+    for(i=1; i<=10; i++)
     {
         printf("%10d", 1 + ( rand() % 6 ));
 
