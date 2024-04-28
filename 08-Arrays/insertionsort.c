@@ -1,7 +1,6 @@
 #include<stdio.h>
 
 void insertion_sort( int [], int );
-
 void swap( int *p, int *q );
 
 int main()
