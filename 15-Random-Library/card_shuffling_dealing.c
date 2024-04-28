@@ -23,7 +23,7 @@ int main()
     srand(time(0)); 
 
     // shuffle the deck
-    shuffle( deck );
+    shuffle(deck);
 
     // deal the deck
     deal( deck, face, suit );
@@ -46,6 +46,7 @@ void shuffle( int wDeck[][13] )
         {
             row = rand() % 4;
             column = rand() % 13;
+
         } while( wDeck[row][column] != 0 );
 
         // place card number in chosen slot of deck
