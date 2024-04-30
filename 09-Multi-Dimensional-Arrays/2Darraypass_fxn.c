@@ -18,9 +18,9 @@ Three ways of accessing a 2-D array
                         9, 0, 1, 6
                   };
 
-    display(a, 3, 4);
-    show(a, 3, 4);
-    print(a, 3, 4);
+    display( a, 3, 4 );
+    show( a, 3, 4 );
+    print( a, 3, 4 );
 
     return 0;
  }
