@@ -5,7 +5,7 @@ int main()
 {
 	int *p,n;
 
-	p = (int *)malloc( n*sizeof(int) );
+	p = (int *)malloc( n * sizeof(int) );
 
 	printf("Enter number of elements: ");
 	scanf("%d",&n);
@@ -13,13 +13,13 @@ int main()
 	printf("Enter elements: ");
 	for( int i=0; i<n; i++ )
 	{
-		scanf("%d",(p+i));
+		scanf("%d",( p + i ));
 	}
 
 	printf("The array is: ");
 	for( int i=0; i<n; i++ )
 	{
-		printf("%d ",*( p+i ));
+		printf("%d ",*( p + i ));
 	}
 	
 	printf("\n");
@@ -28,7 +28,7 @@ int main()
 
 	for( int i=0; i<n; i++ )
 	{
-		if( min < *(p+i) )	min = *(p+i);
+		if( min < *( p + i ) )	min = *( p + i );
 	}
 	
 	printf("Minimum = %d\n",*p);  
