@@ -22,7 +22,7 @@ int main()
 	printf("The first co-ordinate: x1 = %f, y1 = %f\n",c1.x,c1.y);
 	printf("The second co-ordinate: x2 = %f, y2 = %f\n",c2.x,c2.y);
 
-	double d = distance( c1,c2 );
+	double d = distance( c1, c2 );
 
 	printf("Distance between the two points: %lf\n",d);
 	
