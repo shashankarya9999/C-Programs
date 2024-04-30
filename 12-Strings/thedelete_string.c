@@ -27,9 +27,11 @@ void the_delete( char *s, int l )
 				s[j+1] = s[j+5];
 				s[j+2] = s[j+6]; 
 			}
+			
 		i = i - 4;
 		l = l - 4;
 		}
 	}
+	
 	printf("%s\n",s);
 }
