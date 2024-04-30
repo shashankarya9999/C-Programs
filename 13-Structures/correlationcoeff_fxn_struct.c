@@ -21,7 +21,7 @@ int main()
 	
 	for( int i=0; i<11; i++ )
 	{
-		s[0] = s[0] + (x[i]*y[i]);
+		s[0] = s[0] + ( x[i] * y[i] );
 	}
 	
 	for( int i=0; i<11; i++ )
@@ -36,22 +36,21 @@ int main()
 
 	for( int i=0; i<11; i++ )
 	{
-		s[3] = s[3] + x[i]*x[i];
+		s[3] = s[3] + x[i] * x[i];
 	}
 	
-	s[4] = ( s[1]*s[1] );
+	s[4] = ( s[1] * s[1] );
 	
 	for( int i=0; i<11; i++ )
 	{
-		s[5] = s[5] + y[i]*y[i];
+		s[5] = s[5] + y[i] * y[i];
 	}		
 
-	s[6] = ( s[2]*s[2] );
+	s[6] = ( s[2] * s[2] );
 
-	float r = ( s[0]-( s[1]*s[2] ) )/(sqrt( 11*s[3] - ( s[4]*s[4] )*( 11*s[5] - ( s[6]*s[6] ) ) ) );
+	float r = ( s[0]-( s[1] * s[2] ) )/(sqrt( 11 * s[3] - ( s[4] * s[4] )*( 11 * s[5] - ( s[6] * s[6] ) ) ) );
 
 	printf("The correlation coefficient = %f\n",r);
 	
 	return 0;	
 }
-
