@@ -21,6 +21,7 @@ int main()
 	for( i=0; i<n; i++ )	printf("%d ", *(a+i));
 
 	printf("\n");
+	
 	reverse( a, n );
 	
 	return 0;
