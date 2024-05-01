@@ -39,7 +39,7 @@ void sod( int d, int m )
         while( m != 0 )
         {
                 num[i] = m % 10;
-                m = m/10;
+                m = m / 10;
                 i = i + 1;
         }
 
