@@ -67,7 +67,7 @@ void multiplymat( int p1, int p2, int q1, int q2, int A[][q1], int B[][q2] )
 {
 	int resultant[p1][q2];
 	int i,j,k;
-	int sum=0;
+	int sum = 0;
 
 	for( i=0; i<p1; i++ )
 	{
@@ -83,7 +83,7 @@ void multiplymat( int p1, int p2, int q1, int q2, int A[][q1], int B[][q2] )
 		{
 			for( k=0; k<p2; k++ )
 			{
-				sum = sum + A[i][k]*B[k][j];
+				sum = sum + A[i][k] * B[k][j];
 			}
 
 		resultant[i][j] = sum;
