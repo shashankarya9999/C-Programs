@@ -4,27 +4,30 @@
 float sum( int n[] )
 {
 	float sum=0.0;
+	
 	for( int i=0; i<5; i++ )	sum = sum + n[i];
 	
-	return (sum);
+	return sum;
 }
 
 float avg( int n[] )
 {
 	float sum=0.0;
+	
 	for( int i=0; i<5; i++ )	sum = sum + n[i];
 
-	return ((sum)/5);
+	return ((sum) / 5);
 }
 
 float sd( int a , int n[] )
 {
 	float sum = 0.0;
-	for( int i=0; i<5; i++ )	sum = sum + pow((n[i] - a),2);
+	
+	for( int i=0; i<5; i++ )	sum = sum + pow(( n[i] - a ), 2 );
 
-	float sd = sqrt( sum/4 );
+	float sd = sqrt( sum / 4 );
 
-	return (sd);
+	return sd;
 }
 
 int main()
@@ -35,8 +38,8 @@ int main()
 	
 	for( i=0; i<5; i++ )	scanf("%d",&num[i]);
 
-	float su = sum( num );
-	float average = avg( num );
+	float su = sum(num);
+	float average = avg(num);
 	float s = sd( average, num );
 	
 	printf("Sum = %f\n",su);
