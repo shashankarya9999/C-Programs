@@ -1,15 +1,15 @@
 #include<stdio.h>
 
-float average; // Global Declaration of average(It is accessible by both main and averageTwo functions)
+float average; // global declaration of average(It is accessible by both main and averageTwo functions)
 
-void averageTwo( int num1, int num2 ); // Function Prototype
+void averageTwo( int num1, int num2 ); // averageTwo function Prototype
 
 int main()
 {
-	int num1=5;
-	int num2=8;
+	int num1 = 5;
+	int num2 = 8;
 	
-	averageTwo( num1, num2 ); // Function averageTwo called by main function 
+	averageTwo( num1, num2 ); // function averageTwo called by main function 
 
 	printf("The average of %d and %d is %f\n",num1,num2,average);
 	
@@ -20,7 +20,7 @@ int main()
 
 void averageTwo(int num1,int num2) // averageTwo function header
 {
-	average = (float) ( num1 + num2 ) / 2;	// statement of averageTwo function
+	average = (float)( ( num1 + num2 ) / 2 );	// statement of averageTwo function
 }
 
 
