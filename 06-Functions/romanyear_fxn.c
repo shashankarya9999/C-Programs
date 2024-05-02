@@ -1,6 +1,6 @@
 #include<stdio.h>
 
-void roman_year( int );
+void roman_year(int);
 
 int main()
 {
