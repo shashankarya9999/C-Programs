@@ -28,7 +28,10 @@ int main()
 
 	for( int i=0; i<n; i++ )
 	{
-		if( min < *( p + i ) )	min = *( p + i );
+		if( min < *( p + i ) )
+		{	
+			min = *( p + i );
+		}
 	}
 	
 	printf("Minimum = %d\n",*p);  
