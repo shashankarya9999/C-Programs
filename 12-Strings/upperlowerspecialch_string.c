@@ -63,7 +63,7 @@ int specialchcount( char *a )
 
 	while( a[i] != '\0' )
 	{
-		if( !((a[i] >= 'A' && a[i] <= 'Z')||(a[i] >= 'a' && a[i] <= 'z')) )
+		if( !( ( a[i] >= 'A' && a[i] <= 'Z' ) || ( a[i] >= 'a' && a[i] <= 'z' ) ) )
 		{
 			s_counter = s_counter + 1;
 		}
