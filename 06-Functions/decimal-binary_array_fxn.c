@@ -23,7 +23,7 @@ int main()
 void convert_to_bin( int a, int b )
 { 
 	int rem[b];
-	int i=0;
+	int i = 0;
 	int j;
 
 	while( a != 0 )
