@@ -7,8 +7,8 @@ This program prints armstrong numbers from 1 to 1000.
 #include<stdio.h>
 #include<math.h>
 
-int digit( int m );
-int cubic_sum( int m );
+int digit(int); 
+int cubic_sum(int);
 
 int main()
 {
@@ -29,7 +29,8 @@ int main()
 
 int cubic_sum( int m )
 {
-	int rem,sum=0;
+	int rem,sum = 0;
+	
 	while( m != 0 )
 	{
 		rem = m % 10;
