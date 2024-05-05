@@ -11,9 +11,10 @@ int main()
 		scanf("%d",&num);
 		sum = sum + num;
 		
-	} while( num!=0 );
+	} while( num != 0 );
 	
 	printf("The sum of the entered integers is %d \n",sum);
+	
 	return 0;
 }
 
