@@ -4,7 +4,8 @@
 int main()
 {
 	int num,i,j;
-	int flag=1;
+	int flag = 1;
+	
 	printf("Enter an integer: ");
 	scanf("%d",&num);
 	printf("\nThe prime numbers between 1 and n are as follows: \n");
