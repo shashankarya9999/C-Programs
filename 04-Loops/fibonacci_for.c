@@ -2,7 +2,7 @@
 
 int main()
 {
-	int a=0,b=1,c;
+	int a=0, b=1, c;
 	int n,i;
 
         printf("Enter the number of terms:");
