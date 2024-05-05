@@ -1,4 +1,4 @@
-#include<stdio.h>	//Work on this later
+#include<stdio.h>	// work on this later
 
 void addmats( int m, int n, int a[][n], int b[][n] );
 
@@ -97,6 +97,7 @@ void addmats( int m, int n, int a[][n], int b[][n] )
 		{
 			printf("%d\t",C[i][j]);		
 		}
+		
 	printf("\n");	
 	}
 }
