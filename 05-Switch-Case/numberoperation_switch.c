@@ -3,9 +3,9 @@
 void factorial( int n )
 {
 	int i;
-	int var=1;
+	int var = 1;
 	
-	for( i=1; i<=n; i++ )	var = var*i;
+	for( i=1; i<=n; i++ )	var = var * i;
 	
 	printf("Factorial is: %d\n",var);
 }
@@ -42,24 +42,24 @@ int main()	// Let us C( Pg. 146 )
 	printf("Enter a number: ");
 	scanf("%d",&num);
 
-	while( 1 )
+	while(true)
 	{
 		printf("\n0 for Factorial\n1 for Prime or not\n2 for Even or Odd\n3 for exit\n");
 	        printf("Enter operation index:");
          	scanf("%d",&ch);
 		
-		switch( ch )
+		switch(ch)
 		{
 			case 0:
-				factorial( num );
+				factorial(num);
 				break;
 			
 			case 1:
-				prime( num );
+				prime(num);
 				break;
 			
 			case 2:
-				even_odd( num );
+				even_odd(num);
 				break;
 			
 			case 3:
