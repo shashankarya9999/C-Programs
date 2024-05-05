@@ -22,6 +22,7 @@ float averageTwo( int num1, int num2 )
 {
 	float average;
 	
-	average= (num1+num2)/2.0;
+	average = ( num1 + num2 ) / 2.0;
+	
 	return average;
 }
