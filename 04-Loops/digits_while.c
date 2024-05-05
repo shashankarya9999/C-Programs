@@ -9,10 +9,11 @@ int main()
 
 	while( n!=0 )
 	{
-		n = n/10;
+		n = n / 10;
 		counter = counter + 1;
 	}
 
 	printf("The number of digits are: %d\n",counter);
+	
 	return 0;
 }
