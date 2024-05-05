@@ -27,23 +27,28 @@ int main()
 	// Index for multiplication=2
 	// Index for division=3
 	
-	switch( index )
+	switch(index)
 	{
 		case 0: 
 			printf("Addition= %d\n",num1+num2);
 			break;
+		
 		case 1:
 			printf("Subtraction= %d\n",num1-num2);
 			break;
+		
 		case 2:
 			printf("Product= %d\n",num1*num2);
 			break;
+		
 		case 3:
 			printf("Division= %d\n",num1/num2);
 			break;
+		
 		case 4:
 			printf("Modulus Division = %d\n",num1%num2);
 			break;
+		
 		default:
 			printf("Invalid Index. \n");
 			break;	
