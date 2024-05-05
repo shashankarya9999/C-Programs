@@ -85,6 +85,7 @@ void addmats( int a[][2], int b[][2] )
 		{
 			printf("%d\t",C[i][j]);
 		}
+		
 	printf("\n");
 	}
 }
