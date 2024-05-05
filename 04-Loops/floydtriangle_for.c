@@ -1,10 +1,9 @@
 #include<stdio.h>
 
 int main()
-
 {
 	int row,col,num;
-	int number=1;
+	int number = 1;
 	
 	printf("Enter the number of rows: ");
 	scanf("%d",&num);
@@ -17,7 +16,9 @@ int main()
 			printf(" ");
 			number=number+1;
 		}
+		
 	printf("\n");
 	}
-	
+
+	return 0;
 }
