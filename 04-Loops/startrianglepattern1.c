@@ -18,7 +18,7 @@ int main()
 		for( k=1; k<=i; k=k+1 )
 		{ 
 			printf("%c ",x);
-			x=x+1;
+			x = x + 1;
 		}
 		
 	printf("\n");
