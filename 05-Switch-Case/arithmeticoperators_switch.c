@@ -12,9 +12,9 @@ int main()
 	scanf("%d",&num2);
 
 	printf("Enter the arithmetic operator: ");
-	scanf("\n%c",&op);				// Why is it necessary to use \n before %c so that switch runs?
+	scanf("\n%c",&op);				// it is necessary to use \n before %c for switch to run
 
-	switch (op)
+	switch(op)
 	{
 		case '+':	printf("%d + %d = %d\n",num1,num2,num1+num2);
 				break;
@@ -32,8 +32,7 @@ int main()
 				break;
 
 		default:	printf("Invalid Input!\n");
-				break;
-		
+				break;		
 	}
 
 	return 0;
