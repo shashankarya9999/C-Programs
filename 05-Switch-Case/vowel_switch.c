@@ -8,7 +8,7 @@ int main()
 	
 	printf("The entered character is: \n");	
 	
-	switch( ch )
+	switch(ch)
 	{
 		case 'a':
 			  printf("Vowel\n");
