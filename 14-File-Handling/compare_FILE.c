@@ -11,8 +11,8 @@ int main( int argc, char *argv[] )
 	p1 = fopen( argv[1], "r" );
 	p2 = fopen( argv[2], "r" );
 
-	c1 = getc( p1 );
-	c2 = getc( p2 );
+	c1 = getc(p1);
+	c2 = getc(p2);
 
 	while( c1 != EOF && c2 != EOF )
 	{
@@ -24,13 +24,13 @@ int main( int argc, char *argv[] )
 
 		else
 		{
-			c1 = getc( p1 );
-			c2 = getc( p2 );
+			c1 = getc(p1);
+			c2 = getc(p2);
 		}
 	}     
 
-	fclose( p1 );
-	fclose( p2 );
+	fclose(p1);
+	fclose(p2);
 
 	if( flag == 0 )		printf("Files are similar!\n");
 	else			printf("Files are different!\n");
