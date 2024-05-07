@@ -1,6 +1,6 @@
 #include<stdio.h>
 
-int fibo( int num );
+int fibo(int);
 
 int main()
 {
