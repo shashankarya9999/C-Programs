@@ -9,7 +9,7 @@ int main()
 
 	f = fopen( "output.txt", "w" );
 	fprintf( f, "%s %d %f", name, age, cgpa );
-	fclose( f );
+	fclose(f);
 
 	return 0;
 }
