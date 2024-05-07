@@ -1,6 +1,6 @@
 #include<stdio.h>
 
-int dec_bin( int n );
+int dec_bin(int);
 
 int main()
 {
