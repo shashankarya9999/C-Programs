@@ -9,7 +9,7 @@ int main()
 	f = fopen("input.txt","r");
 	fscanf(f, "%s %d %f", name, &age, &cgpa);
 	printf("Name = %s, Age = %d, CGPA = %f\n",name, age, cgpa);
-	fclose( f );
+	fclose(f);
 
 	return 0;
 }
