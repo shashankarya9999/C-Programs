@@ -27,7 +27,7 @@ int main()
 
 int compare( char *a, char *b )
 {
-	int flag=1, i=0;
+	int flag = 1, i = 0;
 
 	while( a[i] != '\0' && b[i] != '\0' )
 	{
@@ -41,12 +41,12 @@ int compare( char *a, char *b )
 
 		if( a[i] == '\0' )
 		{
-			if( b[i] != '\0' )	flag=0;
+			if( b[i] != '\0' )	flag = 0;
 		}
 	
 		if( b[i] == '\0' )
 		{
-			if( a[i] != '\0' )	flag=0;
+			if( a[i] != '\0' )	flag = 0;
 		}
 	}
 
