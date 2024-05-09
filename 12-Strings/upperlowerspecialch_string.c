@@ -23,7 +23,7 @@ int main()
 int uppercasecount( char *a )
 {
 	int u_counter = 0;
-	int i=0;
+	int i = 0;
 
 	while( a[i] != '\0' )
 	{
@@ -41,7 +41,7 @@ int uppercasecount( char *a )
 int lowercasecount( char *a )
 {
         int l_counter = 0;
-        int i=0;
+        int i = 0;
 
         while( a[i] != '\0' )
         {
@@ -59,7 +59,7 @@ int lowercasecount( char *a )
 int specialchcount( char *a )
 {
 	int s_counter = 0;
-	int i=0;
+	int i = 0;
 
 	while( a[i] != '\0' )
 	{
