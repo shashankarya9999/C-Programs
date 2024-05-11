@@ -2,8 +2,8 @@
 
 int main()
 {
-
 	int value;
+	
 	printf("Enter a Number: \n");
 	scanf("%d",&value);
 	
