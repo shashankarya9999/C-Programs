@@ -8,8 +8,8 @@ This problem was given in my professor's class notes.
 
 int main()
 {
-	int a=1, b=0, c=7;
-	int e1,e2,e3,e4,e5,e6;
+	int a = 1, b = 0, c = 7;
+	int e1, e2, e3, e4, e5, e6;
 	
 	e1 = a && b;
 	printf("Value of a AND b is: %d \n",e1);
@@ -34,13 +34,13 @@ int main()
 	if(e4 == 0)	printf("False. \n");
 	else 		printf("True. \n");
 
-	e5 = (a<b) && (b<c);
+	e5 = (a < b) && ( b < c);
 	printf("Value of Fifth expression is %d \n",e5);
 
 	if(e5 == 0)	printf("False. \n");
 	else 		printf("True. \n");
 
-	e6 = (a>=b) || (b>c);
+	e6 = (a >= b) || (b > c);
 	printf("Value of Sixth Expression is: %d \n",e6);
 
 	if(e6 == 0)	printf("False. \n");
