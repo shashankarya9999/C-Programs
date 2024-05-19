@@ -32,7 +32,7 @@ void reverse( int *b, int m )
 	int j;
 	printf("The array in reverse order is: ");
 
-	for( j=m-1; j>=0; j-- )
+	for(j=m-1; j>=0; j--)
 	{
 		printf("%d ",*(b+j));
 	}
