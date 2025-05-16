@@ -3,7 +3,7 @@ This directory contains various programs I wrote in C.
 
 1) ```dft_complex.c``` - Program to find Discrete Fourier Transform(DFT) of a complex sequence
     - Uses complex.h to handle complex numbers
-    - The complex sequence is taken as user input
+    - The complex sequence is taken as user input  
     - The complex sequence is then shown to user in program output
     - The DFT(complex) and its magnitude & phase(radians and degrees) are displayed
 
