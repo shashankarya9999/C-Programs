@@ -1,6 +1,3 @@
-This directory contains various programs I wrote in C. 
-<br>
-
 1) ```dft_complex.c``` - Program to find Discrete Fourier Transform(DFT) of a complex sequence
     - Uses complex.h to handle complex numbers
     - The complex sequence is taken as user input  
