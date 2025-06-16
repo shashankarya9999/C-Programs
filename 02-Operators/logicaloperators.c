@@ -1,8 +1,4 @@
-/*
-
-This problem was given in my professor's class notes.
-
-*/
+// This problem was given in my professor's class notes.
 
 #include<stdio.h>
 
