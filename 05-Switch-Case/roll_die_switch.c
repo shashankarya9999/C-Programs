@@ -1,8 +1,4 @@
-/*
-
-Roll a six-sided die 8000 times
-
-*/
+// Roll a six-sided die 8000 times
 
 #include<stdio.h>
 #include<stdlib.h>
