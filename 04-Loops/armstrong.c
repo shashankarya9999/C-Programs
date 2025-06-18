@@ -1,8 +1,4 @@
-/*
-
-This program prints armstrong numbers from 1 to 1000.
-
-*/
+// This program prints armstrong numbers from 1 to 1000.
 
 #include<stdio.h>
 #include<math.h>
