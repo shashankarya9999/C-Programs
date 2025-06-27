@@ -31,7 +31,7 @@ This project is licensed under the [**MIT License**](https://github.com/shashank
 Contributions are most welcome! If you want to contribute, make sure to go through [**CONTRIBUTING.md**](https://github.com/shashankarya9999/C/blob/main/CONTRIBUTING.md). Any improvements, bug fixes, or additional projects are greatly appreciated.
 
 ## Acknowledgement
-I would like to extend my heartfelt gratitude to my professor and inspiration Mr. Nirnay Ghosh for his invaluable guidance throughout the "Introduction to Computing" course during my second semester of college. His passion for the subject was truly spectacular to witness during classes and labs. Thank you Sir for your invaluable support and encouragement!  
+I would like to extend my heartfelt gratitude to my professor and inspiration Dr. Nirnay Ghosh ([link](https://www.iiests.ac.in/IIEST/Faculty/cs-nirnay)) for his invaluable guidance throughout the "Introduction to Computing" course during my second semester of college. His passion for the subject was truly spectacular to witness during classes and labs. Thank you Sir for your invaluable support and encouragement.
 
 ## Contact
 I welcome any feedback, discussion, suggestion or question regarding any of the projects or any kind of sponsorships for the repository. Feel free to reach out to me via email at shashankarya9831@gmail.com
