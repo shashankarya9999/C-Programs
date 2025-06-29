@@ -1,8 +1,4 @@
-/*
-
-This program takes in two 2x2 matrices as input; and then uses a function called addmats to compute and print the sum of the two matrices.
-
-*/
+// This program takes in two 2x2 matrices as input; and then uses a function called addmats to compute and print the sum of the two matrices
 
 #include<stdio.h>
 
