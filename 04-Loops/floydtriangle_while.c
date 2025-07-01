@@ -1,7 +1,6 @@
 #include<stdio.h>
 
 int main()
-
 {
 	int row = 1;
 	int col,num;
