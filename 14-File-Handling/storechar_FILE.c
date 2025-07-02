@@ -1,8 +1,4 @@
-/*
-
-This program stores every character typed on the keyboard into a file where the program contiues till the character $ is hit from the keyboard.
-
-*/
+// This program stores every character typed on the keyboard into a file where the program contiues till the character $ is hit from the keyboard.
 
 #include<stdio.h>
 
