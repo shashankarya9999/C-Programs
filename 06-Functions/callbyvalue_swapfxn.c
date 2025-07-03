@@ -1,8 +1,6 @@
-/*
-
-Here, no swapping of values of num1 and num2 occurs because changes to local variables do not change other variables with the same name. num1 and num2 may appear same for both functions, as they have same name, but major difference is that they have different memory locations. Therefore, the two variables each in both functions are completely different. They are alive only in their function(till the function has control). 
-
-*/
+// Here, no swapping of values of num1 and num2 occurs because changes to local variables do not change other variables with the same name. 
+// num1 and num2 may appear same for both functions, as they have same name, but major difference is that they have different memory locations. 
+// Therefore, the two variables each in both functions are completely different. They are alive only in their function(till the function has control). 
 
 #include<stdio.h>
 
