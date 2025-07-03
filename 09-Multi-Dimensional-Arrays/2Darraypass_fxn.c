@@ -1,9 +1,5 @@
-/*
+// Three ways of accessing a 2-D array
 
-Three ways of accessing a 2-D array
-
-*/
- 
  #include<stdio.h>
 
  void display(int *q, int, int);
