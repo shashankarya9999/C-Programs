@@ -1,8 +1,4 @@
-/*
-
-This program takes two numbers as input and, according to the index input given by user, it outputs the result of the selected arithmetic operation 
-
-*/
+// This program takes two numbers as input and, according to the index input given by user, it outputs the result of the selected arithmetic operation 
 
 #include<stdio.h>
 
