@@ -5,8 +5,6 @@
 
 double complex_phase(double complex z)
 {
-        //double phase = 0;
-
         // z = 0 + I*0
         if((abs(creal(z)) == 0.0) && (abs(cimag(z)) == 0.0))
         {
