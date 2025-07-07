@@ -2,8 +2,7 @@
 
 int main()
 {
-
-	/* This is Euclid's GCD Algorithm. */
+	// This is Euclid's GCD Algorithm. 
 
 	int num;
 	printf("Enter a number: \n");
