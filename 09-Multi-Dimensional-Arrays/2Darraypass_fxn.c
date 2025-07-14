@@ -1,4 +1,4 @@
-// Three ways of accessing a 2-D array
+// Three ways of accessing a 2-D array in C
 
  #include<stdio.h>
 
