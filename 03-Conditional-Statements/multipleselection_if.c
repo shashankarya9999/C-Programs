@@ -2,7 +2,7 @@
 
 int main()
 {
-	/* The week starts with sunday(0) and ends with saturday(6) */
+	// The week starts with sunday(0) and ends with saturday(6)
 
 	int day;
 	printf("Enter the serial number of day: \n");
