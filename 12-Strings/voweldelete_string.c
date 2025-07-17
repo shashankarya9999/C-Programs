@@ -22,50 +22,35 @@ void vowel_delete( char *s, int l )
 	{
 		if( s[i] == 'a' || s[i] == 'A' )
 		{
-			for( int j=i; j<l; j++ )
-			{
-				s[j] = s[j+1];
-			}
+			for( int j=i; j<l; j++ )	s[j] = s[j+1];
 			i--;
 			l--; 		 	
 		}
 
 		else if( s[i] == 'e' || s[i] == 'E' )
 		{
-		        for( int j=i; j<l; j++ )
-                        {
-                                s[j] = s[j+1];
-                        }
+		        for( int j=i; j<l; j++ )	s[j] = s[j+1];
                 	i--;
                 	l--;
 		}	
 
 		else if( s[i] == 'i' || s[i] == 'I' )
 		{
-		        for( int j=i; j<l; j++ )
-                        {
-                                s[j] = s[j+1];
-                        }
+		        for( int j=i; j<l; j++ )	s[j] = s[j+1];
                 	i--;
                 	l--;
 		}
 
 		else if( s[i] == 'o' || s[i] == 'O' )
 		{
-		        for( int j=i; j<l; j++ )
-                        {
-                                s[j] = s[j+1];
-                        }
+		        for( int j=i; j<l; j++ )	s[j] = s[j+1];
                		i--;
                 	l--;
 		}	
 
 		else if( s[i] == 'u' || s[i] == 'U' )
 		{
-		        for( int j=i; j<l; j++ )
-                        {
-                                s[j] = s[j+1];
-                        }
+		        for( int j=i; j<l; j++ )	s[j] = s[j+1];
                 	i--;
                 	l--;
 		}
