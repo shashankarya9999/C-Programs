@@ -1,9 +1,9 @@
+// This is Euclid's GCD Algorithm.
+
 #include<stdio.h>
 
 int main()
 {
-	// This is Euclid's GCD Algorithm. 
-
 	int num;
 	printf("Enter a number: \n");
 	scanf("%d",&num);
