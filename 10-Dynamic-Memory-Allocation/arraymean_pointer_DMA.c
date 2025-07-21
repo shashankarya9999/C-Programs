@@ -1,7 +1,7 @@
 #include<stdio.h>
 #include<stdlib.h>
 
-float findMean( int *p, int m );
+float find_mean( int *p, int m );
 
 int main()
 {
@@ -19,14 +19,14 @@ int main()
 	
 	printf("\n");
 
-	float ave = findMean( a, n );
+	float ave = find_mean( a, n );
 
 	printf("The mean of array elements is %f\n",ave); 
 
 	return 0;
 }
 
-float findMean( int *p, int m )
+float find_mean( int *p, int m )
 {
 	float total = 0.00, avg = 0.00;
 	int j;
