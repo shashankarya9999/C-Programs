@@ -48,7 +48,7 @@ int main()
 
 	s[6] = ( s[2] * s[2] );
 
-	float r = ( s[0]-( s[1] * s[2] ) )/(sqrt( 11 * s[3] - ( s[4] * s[4] )*( 11 * s[5] - ( s[6] * s[6] ) ) ) );
+	float r = ( s[0]-( s[1] * s[2] ) ) / (sqrt( 11 * s[3] - ( s[4] * s[4] )*( 11 * s[5] - ( s[6] * s[6] ) ) ) );
 
 	printf("The correlation coefficient = %f\n",r);
 	
