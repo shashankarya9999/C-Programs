@@ -14,7 +14,7 @@ int main()
 	printf("Index of Multiplication=2 \n");
 	printf("Index of Division=3 \n");
 	printf("Index of Modulus Division=4 \n");	
-
+	
 	printf("\nEnter the index: ");
 	scanf("%d",&index);	
 
